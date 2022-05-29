@@ -1,0 +1,45 @@
+{
+	"$baseURI": "https://yal.cc/r/20/pixelfont/",
+	"$version": "1.0",
+	"in-glyphs": [
+		"ABCDEFGHIJKLM",
+		"NOPQRSTUVWXYZ",
+		"abcdefghijklm",
+		"nopqrstuvwxyz",
+		"0123456789_^?",
+		"!\"#'/()-+.:;<",
+		"=>@\\[]{}|,"
+	],
+	"glyph-color": "black",
+	"in-kerning": [
+		""
+	],
+	"glyph-width": 5,
+	"glyph-height": 14,
+	"glyph-ofs-x": 1,
+	"glyph-ofs-y": 2,
+	"glyph-sep-x": 1,
+	"glyph-sep-y": 2,
+	"glyph-base-x": 0,
+	"glyph-baseline": 9,
+	"glyph-spacing": 0,
+	"font-is-mono": true,
+	"font-em-square": 1024,
+	"font-line-gap": 0,
+	"font-ascend": 768,
+	"font-descend": -256,
+	"font-px-size": 64,
+	"font-name": "Sprache",
+	"font-author": "3prm3",
+	"font-copy": "(c) 2022",
+	"font-version": "Ver. 1.0",
+	"font-desc": "3prm3's font",
+	"font-license": "Copyright 2022 3prm3  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+	"font-license-url": "https://opensource.org/licenses/MIT",
+	"font-sample-text": "Watch \"Jeopardy!\", Alex Trebek's fun TV quiz game.",
+	"font-preview-text": [
+		"Watch \"Jeopardy!\", Alex Trebek's fun TV quiz game.",
+		"Watch \"Jeopardy!\", Alex Trebek's fun TV quiz game.",
+		"0123456789"
+	]
+}

@@ -91,7 +91,7 @@
   border: solid 3px #808080;
 }
 body {
-  background-color: #b0c4de;
+  background-color: #cadefe;
   background-position: 0 0 50px 50px;
   background-size: 100px 100px;
   height: 200px;
@@ -106,7 +106,7 @@ body {
   margin-left: 20px;
 }
 .topnav {
-  background-color: #708090;
+  background-color: #5e8cb2;
 }
 img {
   border-style: solid;
@@ -127,12 +127,45 @@ p {
   font-family: IBM Plex Mono;
   font-weight: bold;
   font-kerning: normal;
+  font-size: 20px;
 }
 h1 {
   font-family: IBM Plex Mono;
   font-kerning: normal;
-  font-size: 20px;
   font-weight: bold;
+  font-size: 45px;
+}
+h2 {
+  font-family: IBM Plex Mono;
+  font-kerning: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+h3 {
+  font-family: IBM Plex Mono;
+  font-kerning: normal;
+  font-weight: normal;
+  font-size: 25px;
+}
+h4 {
+  font-family: IBM Plex Mono;
+  font-kerning: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+h5 {
+  font-family: IBM Plex Mono;
+  font-kerning: normal;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 15px;
+}
+h6 {
+  font-family: IBM Plex Mono;
+  font-kerning: normal;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 10px;
 }
 div {
   font-family: IBM Plex Mono;
@@ -144,7 +177,7 @@ button {
   font-family: IBM Plex Mono;
   font-weight: bold;
   font-kerning: normal;
-  background-color: #789;
+  background-color: #5e8cb2;
   color: #000;
   border-radius: 25px;
   border: 2px solid #000;
@@ -205,17 +238,11 @@ ol {
   margin-right: auto;
 }
 .blueish {
-  background-color: #789;
+  background-color: #5e8cb2;
 }
 .blutext {
-  color: #789 !important;
+  color: #5e8cb2 !important;
   text-decoration: none !important;
-}
-.green {
-  background-color: #008000;
-}
-.black {
-  background-color: #000;
 }
 .lightblueish {
   background-color: #b0c4de;
