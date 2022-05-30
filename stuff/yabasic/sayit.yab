@@ -1,0 +1,9 @@
+let i = 1
+input"How many times should this loop run? (Type the number in)"in
+wait 1
+repeat
+ print"This script has been printed ";
+ print i-1;
+ print" times before"
+ let i = i + 1
+until i = in + 1
