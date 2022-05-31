@@ -1,1 +1,1 @@
-stylus style.styl
+stylus -c style.styl -o style.min.css

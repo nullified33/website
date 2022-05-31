@@ -244,14 +244,14 @@ ol {
   margin-right: auto;
 }
 .blueish {
-  background-color: #67869f;
+  background-color: #67869f !important;
 }
 .blutext {
   color: #67869f !important;
   text-decoration: none !important;
 }
 .lightblueish {
-  background-color: #b0c4de;
+  background-color: #b0c4de !important;
 }
 pre code {
   padding: 50px;
