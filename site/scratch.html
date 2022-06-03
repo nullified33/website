@@ -21,23 +21,56 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+          <ul class="navbar-nav">
             <li class="nav-item">
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="scratch.html"><h3>|Scratch Page|</h3></a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Scratch|</h3></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dark-text dropdown-item" href="scratch.html">Scratch Page</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dark-text dropdown-item" href="scratch.html#antigames">Antigames</a></li>
+                  <li><a class="dark-text dropdown-item" href="scratch.html#games">Games</a></li>
+                  <li><a class="dark-text dropdown-item" href="scratch.html#libraries">Libraries</a></li>
+                  <li><a class="dark-text dropdown-item" href="scratch.html#showcase">Showcase</a></li>
+                </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="lists.html"><h3>|Lists|</h3></a>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html"><h3>|Blog|</h3></a>
-            <li class="nav-item">
-               <a class="nav-link" href="other.html"><h3>|Other|</h3></a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Lists|</h3></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dark-text dropdown-item" href="lists.html">List Page</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dark-text dropdown-item" href="lists.html#ghrepos">GitHub Repos/Projects</a></li>
+                  <li><a class="dark-text dropdown-item" href="lists.html#codres">Coding Resources</a></li>
+                </ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Blog|</h3></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dark-text dropdown-item" href="blog.html">Blog Page</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dark-text dropdown-item" href="blog.html#github">Latest Post</a></li>
+                  <li><a class="dark-text dropdown-item" href="blog.html#fonts">Second-Latest Post</a></li>
+                 <li><a class="dark-text dropdown-item" href="blog.html#wip">Third-Latest Post</a></li>
+                </ul>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Other|</h3></a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dark-text dropdown-item" href="other.html">Other Page</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
+                    <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
+                  </ul>
             <li class="nav-item">
               <a class="nav-link" href="calc.html"><h3>|Calculator|</h3></a>
-              <li class="nav-item">
-                <a class="nav-link" href="coding.html"><h3>|Coding|</h3></a>
-            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Coding|</h3></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dark-text dropdown-item" href="coding.html">Coding Page</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dark-text dropdown-item" href="coding.html#truth-machine">Truth-machine</a></li>
+                  <li><a class="dark-text dropdown-item" href="coding.html#sayit">SayIt</a></li>
+                </ul>
           </ul>
         </div>
       </div>
@@ -46,12 +79,12 @@
   <body>
     <h1>3prm3's Scratch projects</h1>
     <div></div>
-    <h2>Antigames</h2>
+    <h2 id="antigames">Antigames</h2>
     <h3>Bouncing DVD Logo</h3>
     <iframe src="https://turbowarp.org/677245045/embed?fps=24&interpolate&limitless&offscreen&size=640x360" width="499" height="416" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
     <h4>Description</h4>
     <p>Excactly what you think it is...</p>
-    <h2>"Games"</h2>
+    <h2 id="games">"Games"</h2>
     <div></div>
     <h6>Things that can be "played".</h6>
     <div></div>
@@ -116,7 +149,7 @@
     </div>
     </div>
     <div></div>
-    <h2>"Libraries"</h2>
+    <h2 id="libraries">"Libraries"</h2>
     <div></div>
     <h6>Things that can be used in other projects.</h6>
     <div></div>
@@ -267,7 +300,7 @@
     </div>
     <p><a class="dark-text" href="https://turbowarp.org/684743575">(Alpha 1)The project can be found at this link...</a></p>
     <p><a class="dark-text" href="https://turbowarp.org/685354569">(Alpha "2")The project can be found at this link...</a></p>
-    <h2>Showcase</h2>
+    <h2 id="showcase">Showcase</h2>
     <h6>A showcase of projects that use projects from "Libraries"</h6>
     <h3>Car (LessHAT) Port</h3>
     <iframe src="https://turbowarp.org/685355639/embed" width="499" height="416" allowtransparency="true" frameborder="0" fps="8" scrolling="no" allowfullscreen></iframe>
