@@ -3,6 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        prefix: 'tw-',
+        corePlugins: {
+         preflight: false,
+       }
+      ,theme: {
+        extend: {
+         rotate: {
+           '5.625': '5.625deg',
+         }
+       }
+     }
+    }
+    </script>
     <title>3prm3's Site: Blog</title>
    <link rel="icon" type="image/png" href="img/favicon.png">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -11,7 +27,7 @@
     <script src="js/prism.js"></script>
     <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
     <div class="container">
-    <img src="img/3prm3.png" class="center rounded-0 w-50" >
+  <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
     <nav class="navbar navbar-expand-lg topnav">
       <div class="container-fluid">
         <a class="navbar-brand" href="home.html">
@@ -21,11 +37,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="nav justify-content-center">
             <li class="nav-item">
-            </li>
               <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Scratch|▾|</h3></a>
+                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button" aria-expanded="false"><h3>|Scratch|▾|</h3></a>
                 <ul class="dropdown-menu">
                   <li><a class="dark-text dropdown-item" href="scratch.html">Scratch Page</a></li>
                   <li><hr class="dropdown-divider"></li>
@@ -37,7 +52,7 @@
             </li>
             <li class="nav-item">
               <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Lists|▾|</h3></a>
+                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button" aria-expanded="false"><h3>|Lists|▾|</h3></a>
                 <ul class="dropdown-menu">
                   <li><a class="dark-text dropdown-item" href="lists.html">List Page</a></li>
                   <li><hr class="dropdown-divider"></li>
@@ -54,7 +69,7 @@
                  <li><a class="dark-text dropdown-item" href="blog.html#wip">Third-Latest Post</a></li>
                 </ul>
                 <li class="nav-item dropdown">
-                  <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Other|▾|</h3></a>
+                  <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button" aria-expanded="false"><h3>|Other|▾|</h3></a>
                   <ul class="dropdown-menu">
                     <li><a class="dark-text dropdown-item" href="other.html">Other Page</a></li>
                     <li><hr class="dropdown-divider"></li>
@@ -64,7 +79,7 @@
             <li class="nav-item">
               <a class="nav-link" href="calc.html"><h3>|Calculator|</h3></a>
               <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Coding|▾|</h3></a>
+                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button" aria-expanded="false"><h3>|Coding|▾|</h3></a>
                 <ul class="dropdown-menu">
                   <li><a class="dark-text dropdown-item" href="coding.html">Coding Page</a></li>
                   <li><hr class="dropdown-divider"></li>
@@ -184,7 +199,7 @@
         </div>
       </div>
     </footer>
-        <i><p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text" href="https://icons.getbootstrap.com/">Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p></i>
+    <i><p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text" href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text" href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text" href="https://icons.getbootstrap.com/"> Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p></i>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <div id="disqus_thread"></div>
     <script>

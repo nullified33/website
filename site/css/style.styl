@@ -1,3 +1,7 @@
+$lightblueish = #CADEFE
+$blueish = #67869F
+$darkblueish = #2f4f4f
+
 @import url("https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.css")
 /* cyrillic-ext */
 @font-face
@@ -80,7 +84,7 @@
   border solid 3px #808080
 
 body
-  background-color #CADEFE
+  background-color $lightblueish
   background-position 0 0 50px 50px
   background-size 100px 100px
   height 200px
@@ -95,7 +99,7 @@ body
   margin-left 20px
 
 .topnav
-  background-color #67869F
+  background-color $blueish
 
 img
   border-style solid
@@ -170,11 +174,11 @@ div
 button
   font-family Fira Code
   font-kerning normal
-  background-color #67869F
+  background-color $blueish
   color #000
   border-radius 25px
   border 2px solid #000
-  padding 15px
+  padding 20px
 
 .btn:focus
  outline none
@@ -236,19 +240,19 @@ ol
   margin-right auto
 
 .blueish
-  background-color #67869F !important
+  background-color $blueish!important
 
 .blutext
-  color #67869F !important
+  color $blueish !important
   text-decoration none !important
 
 .lightblueish
-  background-color #CADEFE !important
+  background-color $lightblueish !important
 
 pre code
   padding 50px
-  background-color #000
-  border 3px solid #2f4f4f
+  background-color black
+  border 3px solid $darkblueish
   color #fff !important
   display block
 .fira-code
@@ -291,5 +295,3 @@ pre code
 kbd
   padding 0.4rem
   border-radius 1rem
-
-
