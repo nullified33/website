@@ -3,6 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        prefix: 'tw-',
+        corePlugins: {
+         preflight: false,
+       }
+      ,theme: {
+        extend: {
+         rotate: {
+           '5.625': '5.625deg',
+         }
+       }
+     }
+    }
+    </script>
     <title>3prm3's Site: Calculator</title>
    <link rel="icon" type="image/png" href="img/favicon.png">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -78,11 +94,11 @@
      <body>
     <h1>3prm3's site</h1>
     <h5>Here's a nifty calculator.</h5>
-    <iframe src="calculator.html" scrolling="no" width="100" height="800"></iframe>
+    <iframe src="calculator.html" scrolling="no" width="100" height="750"></iframe>
     <p>Embed with this.</p>
     <pre>
       <code class="lang-html">
-        &lt;iframe src=&quot;https://threepremthree.neocities.org/calculator.html&quot; width=&quot;100&quot; height=&quot;800&quot;&gt;&lt;/iframe&gt;
+        &lt;iframe src=&quot;https://threepremthree.neocities.org/calculator.html&quot; width=&quot;100&quot; height=&quot;750&quot;&gt;&lt;/iframe&gt;
       </code>
     </pre>
     <hr>
