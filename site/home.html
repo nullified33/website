@@ -61,16 +61,17 @@
               <li><a class="dark-text dropdown-item" href="lists.html#ghrepos">GitHub Repos/Projects</a></li>
               <li><a class="dark-text dropdown-item" href="lists.html#codres">Coding Resources</a></li>
             </ul>
-          <li class="nav-item dropdown">
-            <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Blog|▾|</h3></a>
-            <ul class="dropdown-menu">
-              <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
-              <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
-              <li><hr class="dropdown-divider"></li>
-             <li><a class="dark-text dropdown-item" href="blog.html#github">Latest Post</a></li>
-            </ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Blog|▾|</h3></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
+                  <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
+                  <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                 <li><a class="dark-text dropdown-item" href="blog.html#handlescript">Latest Post</a></li>
+                </ul>
             <li class="nav-item dropdown">
               <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button" aria-expanded="false"><h3>|Other|▾|</h3></a>
               <ul class="dropdown-menu">
@@ -100,6 +101,17 @@
     <h2>Blog</h2>
     <div class="container">
       <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+          <img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript Icon">
+            <div class="card-body">
+              <h5 class="card-title">This site is now deployed using GitHub.</h5>
+              <p class="card-text">Previously, this site was uploaded via the drag and drop menu but I now use a repo and GitHub Actions to deploy the site.</p>
+              <button><a href="https://github.com/3prm3/website/tree/main/site" >GitHub Repo <i class="bi bi-github"></i></a></button>
+                <div></div>
+            </div>
+          </div>
+        </div>
         <div class="col">
           <div class="card" style="width: 18rem;">
           <img src="img/github.svg" class="card-img-top" alt="GitHub Logo">
@@ -138,6 +150,14 @@
             </div>
           </div>
         </div>
+        <!--Beggining of "Old Cards"-->
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+          <h4>Older</h4>
+        </button>
+        <div class="collapse" id="collapse">
+          <div class="card card-body">
+            <div class="container">
+              <div class="row">
         <div class="col">
    <div class="card" style="width: 18rem;">
         <img src="img/crosp.png" class="card-img-top rounded-0" alt="crosp.png">
@@ -158,8 +178,20 @@
            </div>
            </div>
           </div>
-        </div>
+          <div class="card" style="width: 18rem;">
+            <img src="img/crosp.png" class="card-img-top rounded-0" alt="crosp.png">
+               <div class="card-body">
+                 <h5 class="card-title">...</h5>
+       <ul class="card-text">
+<p>This is a secret</p>
+                  </ul>
+               </div>
+               </div>
+              </div>
+              <!-- End -->
       </div>
+    </div>
+  </div>
      <h2>Coding</h2>
      <div class="container d-flex justify-content-start">
       <div class="row">
