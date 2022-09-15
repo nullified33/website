@@ -1,2 +1,3 @@
-# 3prm3's website's code
-This repo contains the site so it can be deployed to Neocities
+# The repository for <https://threepremthree.neocities.org/>
+
+This repo contains the site's code and some extras so it can be deployed to Neocities.
