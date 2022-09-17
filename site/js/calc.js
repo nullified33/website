@@ -84,7 +84,7 @@ function add() {
   document.getElementById("answer").innerHTML =result;
   }
 
-  function exponential() {
+  function exponent() {
    var result =
    Math.pow(Number(document.getElementById("n1").value),
     Number(document.getElementById("n2").value))
