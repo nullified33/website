@@ -1,6 +1,7 @@
-$lightblueish = #d0e2ff
+$lightblueish = #D0E2FF
 $blueish = #67869F
-$darkblueish = #2f4f4f
+$midblueish = #B5CAE6
+$darkblueish = #2F4F4F
 /* latin-ext */
 @font-face 
   font-family 'Atkinson Hyperlegible'
@@ -226,8 +227,15 @@ button
   font-kerning normal
   background-color $blueish
   color #000
-  border-radius 25px
-  border 2px solid #000
+  border-radius 0px
+  padding 12.5px
+  border 2px solid $blueish
+button.secondary
+  font-family Fira Code
+  font-kerning normal
+  color#fff
+  border-radius 0px
+  border 2px solid #fff
   padding 12.5px
 label
   border-left 5px solid #000
@@ -272,13 +280,15 @@ ol
   display block
   margin-left auto
   margin-right auto
+.lightblueish
+  background-color $lightblueish !important
+.midblueish
+  background-color $midblueish!important
 .blueish
   background-color $blueish!important
 .blutext
   color $blueish !important
   text-decoration none !important
-.lightblueish
-  background-color $lightblueish !important
 pre code
   padding 50px
   background-color black
