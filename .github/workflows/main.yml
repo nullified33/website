@@ -1,6 +1,5 @@
-name: 'Deploy to Neocities'
-on: push
-
+name: 'Deploy site to Neocities'
+on: [push]
 jobs:
   deploy:
     name: 'Deploy to Neocities'
