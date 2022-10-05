@@ -1,12 +1,29 @@
-name: 'Deploy site to Neocities'
-on: [push]
+name: Build site
+
+on: [push, pull_request]
+
 jobs:
-  deploy:
-    name: 'Deploy to Neocities'
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v1
-      - uses: kognise/neocities-deploy-action@v1
+      - uses: actions/checkout@v2
+
+      - run: make
+
+      - if: ${{ success() && github.ref == 'refs/heads/main' }}
+        id: deploy
+        continue-on-error: true
+        uses: bcomnes/deploy-to-neocities@v1
         with:
-          neocities_token: ${{ secrets.NEOCITIES_TOKEN }}
-          directory: 'site/'
+          api_token: ${{ secrets.NEOCITIES_TOKEN }}
+          dist_dir: 'site/'
+          cleanup: true
+
+      - name: Deploy to Neocities fallback
+        if: ${{ steps.deploy.outcome == 'failure' && github.ref == 'refs/heads/main' }}
+        uses: jonchang/deploy-neocities@master
+        with:
+          key: ${{ secrets.NEOCITIES_TOKEN }}
+          dir: 'site/'
+          clean: true
