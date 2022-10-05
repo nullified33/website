@@ -1,5 +1,5 @@
 name: 'Deploy to Neocities'
-on: [push]
+on: push
 
 jobs:
   deploy:
