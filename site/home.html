@@ -52,8 +52,11 @@
     <a class="navbar-brand" href="home.html">
       <img src="img/house.png"  class="rounded-0" width="50" height="50">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
-      <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
+        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
+        </svg></span>
+      </button>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav justify-content-center">
@@ -118,32 +121,103 @@
     <div class="gcse-search"></div>
     <h1>3prm3's Site: Homepage</h1>
     <h2>Blog</h2>
-    <div class="container">
-      <div class="jumbotron bg-white tw-overflow-x-auto">
-        <h1>Spotlight</h1>
-        <img src="img/handlescriptbeta2.png" class="rounded-0 tw-float-left w-25" alt="Assortment of Icons">
-        <h4 class="dark-text tw-font-semibold tw-text-sm">Scratch</h4>
-        <h2>HandleScript Beta 2</h2>
-        <p>In summary: HandleScript is effectively a group of modules made to make scripting in Scratch easier.</p>
-        <div class="row">
-          <div class="col">
-        <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-             <div class="col">
-        <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Scripting</p>
+      <div class="carousel-inner midblueish">
+        <div class="carousel-item active">
+          <div class="jumbotron bg-white tw-overflow-x-auto">
+            <h1>Spotlight</h1>
+            <img src="img/handlescriptbeta2.png" class="rounded-0 tw-float-left w-25" alt="Assortment of Icons">
+            <h4 class="dark-text tw-font-semibold tw-text-sm">Scratch</h4>
+            <h2>HandleScript Beta 2</h2>
+            <p>In summary: HandleScript is effectively a group of modules made to make scripting in Scratch easier.</p>
+            <div class="row">
+              <div class="col">
+            <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+          </div>
+                 <div class="col">
+            <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Scripting</p>
+          </div>
+          </div>
+            <hr>
+            <a class="dark-text" href="blog.html#handlescriptbeta2" >Go to blog post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="tw-bg-gray-100 tw--translate-y-8">
+            <hr>
+            Related:
+            <ul>
+             <li><a class="dark-text" href="blog.html#handlescript">Announcing HandleScript <i class="bi bi-arrow-right"></i></a><br></li>
+             <li><a class="dark-text" href="scratch.html#handlescript">HandleScript Beta 3 <i class="bi bi-arrow-right"></i></a><br></li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="jumbotron bg-white tw-overflow-x-auto">
+            <h1>Spotlight</h1>
+            <img src="img/crosp.png" class="rounded-0 tw-float-left w-25" alt="crosp.png">
+            <h4 class="dark-text tw-font-semibold tw-text-sm">Tutorial</h4>
+            <h2>Tutorial #1</h2>
+            <p>Step 1: Open your image in paint.net
+
+              Step 2: Duplicate your image layer...</p>
+            <div class="row">
+              <div class="col">
+            <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Tutorial</p>
+          </div>
+                 <div class="col">
+            <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Art</p>
+          </div>
+          </div>
+            <hr>
+            <a class="dark-text" href="blog.html#vhs" >Go to blog post <i class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="tw-bg-gray-100 tw--translate-y-8">
+            <hr>
+            Related:
+            <ul>
+             <li><p class="dark-text">N/A</p><br></li>
+            </ul>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="jumbotron bg-white tw-overflow-x-auto">
+            <h1>Spotlight</h1>
+            <img src="img/texttest.png" class="rounded-0 tw-float-left w-25" alt="Text Examples"><h4 class="dark-text tw-font-semibold tw-text-sm">Fonts</h4>
+            <h2>New Fonts!</h2>
+            <p>I've made two new-ish fonts which can be found below!</p>
+            <div class="row">
+              <div class="col">
+            <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Fonts</p>
+          </div>
+                 <div class="col">
+            <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Art</p>
+          </div>
+          <hr>
+          <a class="dark-text" href="https://raw.githubusercontent.com/3prm3/website/main/stuff/fonts/Field%20Day.ttf" >Download Field Day <i class="bi bi-download"></i></a><br>
+          <a class="dark-text" href="https://raw.githubusercontent.com/3prm3/website/main/stuff/fonts/Sprache.ttf" >Download Sprache <i class="bi bi-download"></i></a><br>
+          <a class="dark-text" href="https://github.com/3prm3/website/tree/main/stuff">Open GitHub repo <i class="bi bi-arrow-right"></i></a> 
+          </div>
+          </div>
+          <div class="tw-bg-gray-100 tw--translate-y-8">
+            <hr>
+            Related:
+            <ul>
+             <li><p class="dark-text">N/A</p><br></li>
+            </ul>
+          </div>
+        </div>
+        <!--
+             <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        -->
       </div>
-      </div>
-        <hr>
-        <a class="dark-text" href="blog.html#handlescriptbeta2" >Go to blog post <i class="bi bi-arrow-right"></i></a>
-      </div>
-      <div class="tw-bg-gray-100 tw--translate-y-8">
-        <hr>
-        Related:
-        <ul>
-         <li><a class="dark-text" href="blog.html#handlescript">Announcing HandleScript <i class="bi bi-arrow-right"></i></a><br></li>
-         <li><a class="dark-text" href="scratch.html#handlescript">HandleScript Beta 3 <i class="bi bi-arrow-right"></i></a><br></li>
-        </ul>
-      </div>
+    </div>
+<br>
       <div class="row">
         <!--Begginning of "Old Cards"-->
         <div class="d-grid gap-2">
