@@ -334,4 +334,21 @@ tr:nth-child(odd)
   background-color #FFF
 tr:nth-child(even)
   background-color #F4F4F4
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * 
+    scrollbar-width auto
+    scrollbar-color #67869f #b5cae6
   
+/* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar
+    width 16px
+
+  *::-webkit-scrollbar-track 
+    background #b5cae6
+
+  *::-webkit-scrollbar-thumb
+    background-color #67869f
+    border-radius 100px
+    border 0px solid #ffffff
