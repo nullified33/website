@@ -1,137 +1,173 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
-    <script>
-      tailwind.config = {
-        prefix: 'tw-',
-        corePlugins: {
-         preflight: false,
-       }
-      ,theme: {
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+      corePlugins: {
+        preflight: false,
+      }
+      , theme: {
         extend: {
           fontSize: {
-      sxsm: '0.785rem',
-     }
-       ,rotate: {
-         '5.625': '5.625deg',
+            sxsm: '0.785rem',
+          }
+          , rotate: {
+            '5.625': '5.625deg',
+          }
         }
-       }
-     }
+      }
     }
-    </script>
-    <title>3prm3's Site: Template</title>
-    <meta name="title" content="3prm3's Site: Template">
-    <meta name="description" content="The page dedicated entirely to hosting site elements...">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://threepremthree.neocities.org/template.html">
-    <meta property="og:title" content="3prm3's Site: Template">
-    <meta property="og:description" content="The page dedicated entirely to hosting site elements...">
-    <meta property="og:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://threepremthree.neocities.org/template.html">
-    <meta property="twitter:title" content="3prm3's Site: Template">
-    <meta property="twitter:description" content="The page dedicated entirely to hosting site elements...">
-    <meta property="twitter:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
-   <link rel="icon" type="image/png" href="img/favicon.png">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.min.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <script src="js/prism.js"></script>
-    <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
-<div class="container">
-   <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
-   <nav class="navbar navbar-expand-lg topnav">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="home.html">
-        <img src="img/house.png"  class="rounded-0" width="50" height="50">
-      </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
-        </svg></span>
-      </button>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
+  </script>
+  <title>3prm3's Site: Template</title>
+  <meta name="title" content="3prm3's Site: Template">
+  <meta name="description" content="The page dedicated entirely to hosting site elements...">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://threepremthree.neocities.org/template.html">
+  <meta property="og:title" content="3prm3's Site: Template">
+  <meta property="og:description" content="The page dedicated entirely to hosting site elements...">
+  <meta property="og:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://threepremthree.neocities.org/template.html">
+  <meta property="twitter:title" content="3prm3's Site: Template">
+  <meta property="twitter:description" content="The page dedicated entirely to hosting site elements...">
+  <meta property="twitter:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="js/prism.js"></script>
+  <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
+  <div class="container">
+    <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
+    <nav class="navbar navbar-expand-lg topnav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="img/house.png" class="rounded-0" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+              class="bi bi-list-nested" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
+            </svg></span>
+        </button>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button" aria-expanded="false"><h3>|Scratch|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button"
+                aria-expanded="false">
+                <h3>|Scratch|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
-                      <li><a class="dark-text dropdown-item" href="scratch.html">Scratch</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li><a class="dark-text dropdown-item" href="scratch.html">Scratch</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#games">Games</a></li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#libraries">Libraries</a></li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#showcase">Showcase</a></li>
               </ul>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button" aria-expanded="false"><h3>|Lists|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button"
+                aria-expanded="false">
+                <h3>|Lists|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dark-text dropdown-item" href="lists.html">Lists</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="lists.html#ghrepos">GitHub Repos/Projects</a></li>
                 <li><a class="dark-text dropdown-item" href="lists.html#codres">Coding Resources</a></li>
               </ul>
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Blog|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#september2022">September 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                 <li><a class="dark-text dropdown-item" href="blog.html#handlescriptbeta2">Latest Post</a></li>
-                </ul>
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button" aria-expanded="false"><h3>|Other|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="other.html">Other</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
-                  <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
-                </ul>
-          <li class="nav-item">
-            <a class="nav-link" href="calc.html"><h3>|Calculator|</h3></a>
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button" aria-expanded="false"><h3>|Coding|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button"
+                aria-expanded="false">
+                <h3>|Blog|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="blog.html#september2022">September 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="blog.html#handlescriptbeta2">Latest Post</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button"
+                aria-expanded="false">
+                <h3>|Other|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="other.html">Other</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
+                <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="calc.html">
+                <h3>|Calculator|</h3>
+              </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button"
+                aria-expanded="false">
+                <h3>|Coding|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dark-text dropdown-item" href="coding.html">Coding</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="coding.html#truth-machine">Truth-machine</a></li>
                 <li><a class="dark-text dropdown-item" href="coding.html#sayit">SayIt</a></li>
               </ul>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-      </head>
-    <body>
-    <script src="https://cse.google.com/cse.js?cx=8f626fc0d51028e4f">
-    </script>
-    <div class="gcse-search"></div>
-    <h1>3prm3's Site: Template</h1>
+    </nav>
+</head>
+
+<body>
+  <script src="https://cse.google.com/cse.js?cx=8f626fc0d51028e4f">
+  </script>
+  <div class="gcse-search"></div>
+  <h1>3prm3's Site: Template</h1>
   <div class="jumbotron bg-white tw-overflow-x-auto">
     <h4 class="dark-text tw-font-semibold tw-text-xl">Jumbotron</h4>
     <h1>The site of 3prm3</h1>
-    <p>Hello and welcome to <i><a class="dark-text" href="https://threepremthree.neocities.org/">threepremthree.neocities.org</a>!</i> Here you can find stuff that I've made.</p>
+    <p>Hello and welcome to <i><a class="dark-text"
+          href="https://threepremthree.neocities.org/">threepremthree.neocities.org</a>!</i> Here you can find stuff
+      that I've made.</p>
     <div class="row">
       <div class="col">
-    <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Index Page</p>
-  </div>
-         <div class="col">
-    <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Startpage</p>
-  </div>
-  </div>
+        <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Index Page</p>
+      </div>
+      <div class="col">
+        <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Startpage</p>
+      </div>
+    </div>
     <hr>
     <a class="dark-text" href="home.html">Go to homepage <i class="bi bi-arrow-right"></i></a>
   </div>
@@ -139,15 +175,18 @@
     <hr>
     Related:
     <ul>
-     <li><a class="dark-text" href="blog.html#handlescript">Announcing HandleScript <i class="bi bi-arrow-right"></i></a><br></li>
-     <li><a class="dark-text" href="scratch.html#handlescript">HandleScript Beta 3 <i class="bi bi-arrow-right"></i></a><br></li>
+      <li><a class="dark-text" href="blog.html#handlescript">Announcing HandleScript <i
+            class="bi bi-arrow-right"></i></a><br></li>
+      <li><a class="dark-text" href="scratch.html#handlescript">HandleScript Beta 3 <i
+            class="bi bi-arrow-right"></i></a><br></li>
     </ul>
   </div>
   <div class="container-fluid table-responsive">
     <table class="table">
       <thead>
         <tr>
-          <th id="ghrepos" class="tw-font-medium tw-text-2xl tw-leading-[4rem]" colspan="3" scope="colgroup">GitHub Repos/Projects</th>
+          <th id="ghrepos" class="tw-font-medium tw-text-2xl tw-leading-[4rem]" colspan="3" scope="colgroup">GitHub
+            Repos/Projects</th>
         </tr>
         <tr>
           <th class="tw-font-bold" scope="col">Date of Release</th>
@@ -159,166 +198,191 @@
         <tr>
           <th class="tw-font-medium tw-text-gray-500" scope="row">3/27/2021</th>
           <td class="tw-font-medium tw-text-gray-500">3prm3/calculator<i class="bi bi-calculator-fill"></i></td>
-          <td><a class="dark-text tw-font-medium" href="https://github.com/3prm3/calculator">https://github.com/3prm3/calculator</a></td>
+          <td><a class="dark-text tw-font-medium"
+              href="https://github.com/3prm3/calculator">https://github.com/3prm3/calculator</a></td>
         </tr>
         <tr>
           <th class="tw-font-medium tw-text-gray-500" scope="row">5/15/2021</th>
-          <td class="tw-font-medium tw-text-gray-500">cc-orgs/cc-overhaul<img src="img/mc-icon.png" class="rounded-0" width="35" height="35"></td>
-          <td><a class="dark-text tw-font-medium tw-text-gray-500" href="https://github.com/cc-orgs/cc-overhaul">https://github.com/cc-orgs/cc-overhaul</a></td>
+          <td class="tw-font-medium tw-text-gray-500">cc-orgs/cc-overhaul<img src="img/mc-icon.png" class="rounded-0"
+              width="35" height="35"></td>
+          <td><a class="dark-text tw-font-medium tw-text-gray-500"
+              href="https://github.com/cc-orgs/cc-overhaul">https://github.com/cc-orgs/cc-overhaul</a></td>
         </tr>
         <tr>
           <th class="tw-font-medium tw-text-gray-500" scope="row">6/3/2021</th>
-          <td class="tw-font-medium tw-text-gray-500">3prm3-Org/Blockpacks<img src="img/mc-icon.png" class="rounded-0" width="35" height="35"></td>
-          <td><a class="dark-text tw-font-medium" href="https://github.com/3prm3-Org/Blockpacks">https://github.com/3prm3-Org/Blockpacks</a></td>
+          <td class="tw-font-medium tw-text-gray-500">3prm3-Org/Blockpacks<img src="img/mc-icon.png" class="rounded-0"
+              width="35" height="35"></td>
+          <td><a class="dark-text tw-font-medium"
+              href="https://github.com/3prm3-Org/Blockpacks">https://github.com/3prm3-Org/Blockpacks</a></td>
         </tr>
         <tr>
           <th class="tw-font-medium tw-text-gray-500" scope="row">12/22/2021</th>
           <td class="tw-font-medium tw-text-gray-500">3prm3/constdyz<i class="bi bi-file-font-fill"></i></td>
-          <td><a class="dark-text tw-font-medium" href="https://github.com/3prm3/constdyz">https://github.com/3prm3/constdyz</a></td>
+          <td><a class="dark-text tw-font-medium"
+              href="https://github.com/3prm3/constdyz">https://github.com/3prm3/constdyz</a></td>
         </tr>
-    </tr>
-  </tbody>
-</table>
-           <div class="card" id="sayit" style="width: 30rem;">
-            <iframe src="https://www.jdoodle.com/embed/v0/4PZO" scrolling="no" width="100" height="725"></iframe>
-               <div class="card-body">
-                 <h4 class="dark-text tw-font-semibold tw-text-sm">Yabasic</h4>
-                 <h5 class="card-title tw-not-italic">SayIt</h5>
-                 <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">
-                   <p>A program which allows you to run a loop an amount of times</p>
-                   <div class="row">
-                     <div class="col">
-                       <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Yabasic</p>
-                     </div>
-                     <div class="col">
-                   <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Scripting</p>
-                 </div>
-               </div>
-                 <hr>
-                   <a class="dark-text" href="coding.html#sayit">Yabasic script <i class="bi bi-arrow-right"></i></a><br>
-                   </div>
-                 </div>
-                 <div class="card" id="handlescript" style="width: 24rem;">
-                  <div class="row">
-                    <div class="col">
-                  <img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript">
-                      </div>
-                    <div class="card-body">
-                      <h4 class="dark-text tw-font-semibold tw-text-sm">Libraries</h4>
-                      <h5 class="card-title tw-not-italic">HandleScript Beta 3</h5>
-                      <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">Add broadcast aliases for mode 2 and 3 for stamper.</h5>
-                      <div class="row">
-                        <div class="col">
-                      <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-                    </div>
-                           <div class="col">
-                      <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Libraries</p>
-                    </div>
-                    </div>
-                      <hr>
-                        <a class="dark-text" href="https://turbowarp.org/733659042" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-                        <a class="dark-text" href="https://scratch.mit.edu/projects/733659042/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                  </div>
-                </div>
-                 <div class="card mx-1 my-1" style="width: 18rem;">
-                  <img src="img/helloworld.png" class="card-img-top rounded-0" alt="crosp.png">
-                    <div class="card-body">
-                      <h4 class="dark-text tw-font-semibold tw-text-sm">Welcome</h4>
-                      <h5 class="card-title tw-not-italic">Welcome! (to my blog!)</h5>
-                      <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">
-                        <p>This blog is where I'll be posting art tips, general messages, announcements and more!</p></h5>
-                      <div class="row">
-                        <div class="col">
-                      <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Welcome</p>
-                    </div>
-                           <div class="col">
-                      <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">First Post</p>
-                    </div>
-                    </div>
-                      <hr>
-                        <a class="dark-text" href="blog.html#welcome">Go to blog post <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                        <div class="card-footer">
-                          Related:
-                          <ul>
-                           <li><p class="dark-text">N/A</p><br></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                      <div class="card my-2" id="carsh" style="width: 38rem; height: 42rem">
-                        <div class="row">
-                          <div class="col">
-                        <img src="img/sensehatcar.png" class="rounded-0 card-img-top" alt="Car">
-                            </div>
-                            <div class="col-4 d-none d-lg-block">
-                            <h3 class="tw-font-semibold tw-not-italic">Related</h3>
-                            <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-                            <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
-                            <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-                            <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
-                            </div>
-                          </div>
-                          <div class="card-body">
-                            <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-                            <h5 class="card-title tw-not-italic">Car Port+ Rev. 2</h5>
-                            <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A port of the original SenseHAT version of Car to regular Scratch with a bit of tweaking and added levels to make it closer to older versions of the remaster.</h5>
-                            <div class="row">
-                              <div class="col">
-                            <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-                          </div>
-                                 <div class="col">
-                            <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-                          </div>
-                          </div>
-                            <hr>
-                              <a class="dark-text" href="https://turbowarp.org/683117053" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-                              <a class="dark-text" href="https://scratch.mit.edu/projects/683117053/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-                              </div> 
-                      </div>
-<hr>
-    <footer class="container blueish" id="footer-links">
-      <div class="row py-3">
+        </tr>
+      </tbody>
+    </table>
+    <div class="card" id="sayit" style="width: 30rem;">
+      <iframe src="https://www.jdoodle.com/embed/v0/4PZO" scrolling="no" width="100" height="725"></iframe>
+      <div class="card-body">
+        <h4 class="dark-text tw-font-semibold tw-text-sm">Yabasic</h4>
+        <h5 class="card-title tw-not-italic">SayIt</h5>
+        <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">
+          <p>A program which allows you to run a loop an amount of times</p>
+          <div class="row">
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Yabasic</p>
+            </div>
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Scripting</p>
+            </div>
+          </div>
+          <hr>
+          <a class="dark-text" href="coding.html#sayit">Yabasic script <i class="bi bi-arrow-right"></i></a><br>
+      </div>
+    </div>
+    <div class="card" id="handlescript" style="width: 24rem;">
+      <div class="row">
         <div class="col">
-          <h1 class="text-end">3prm3</h1>
-          <h3 class="text-end">Links</h3>
+          <img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript">
         </div>
-        <div class="col">
-          <ul class="list-unstyled my-0">
-            <li>
-              <i class="bi bi-house-door-fill"></i>
-              <a href="home.html">Homepage</a>
-            </li>
-            <li>
-              <i class="custom d-inline-block"><img src="img/scratch-icon.png"></i>
-              <a href="scratch.html">Scratch</a>
-            </li>
-            <li>
-              <i class="bi bi-list-ul"></i>
-              <a href="lists.html">Lists</a>
-            </li>
-            <li>
-              <i class="bi bi-card-image"></i>
-              <a href="blog.html">Blog</a>
-            </li>
-            <li>
-              <i class="bi bi-question-lg"></i>
-              <a href="other.html">Other</a>
-            </li>
-            <li>
-              <i class="bi bi-calculator-fill"></i>
-              <a href="calc.html">Calculator</a>
-            </li>
-            <li>
-              <i class="bi bi-code-slash"></i>
-              <a href="coding.html">Coding</a>
-            </li>
-          </ul>
+        <div class="card-body">
+          <h4 class="dark-text tw-font-semibold tw-text-sm">Libraries</h4>
+          <h5 class="card-title tw-not-italic">HandleScript Beta 3</h5>
+          <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">Add broadcast aliases for mode 2 and 3
+            for stamper.</h5>
+          <div class="row">
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+            </div>
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Libraries</p>
+            </div>
+          </div>
+          <hr>
+          <a class="dark-text" href="https://turbowarp.org/733659042">Open on TurboWarp <i
+              class="bi bi-arrow-right"></i></a><br>
+          <a class="dark-text" href="https://scratch.mit.edu/projects/733659042/">Open on Scratch <i
+              class="bi bi-arrow-right"></i></a>
         </div>
       </div>
-    </footer>
-    <i><p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text" href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text" href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text" href="https://icons.getbootstrap.com/"> Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p></i>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+    </div>
+    <div class="card mx-1 my-1" style="width: 18rem;">
+      <img src="img/helloworld.png" class="card-img-top rounded-0" alt="crosp.png">
+      <div class="card-body">
+        <h4 class="dark-text tw-font-semibold tw-text-sm">Welcome</h4>
+        <h5 class="card-title tw-not-italic">Welcome! (to my blog!)</h5>
+        <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">
+          <p>This blog is where I'll be posting art tips, general messages, announcements and more!</p>
+        </h5>
+        <div class="row">
+          <div class="col">
+            <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Welcome</p>
+          </div>
+          <div class="col">
+            <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">First Post</p>
+          </div>
+        </div>
+        <hr>
+        <a class="dark-text" href="blog.html#welcome">Go to blog post <i class="bi bi-arrow-right"></i></a>
+      </div>
+      <div class="card-footer">
+        Related:
+        <ul>
+          <li>
+            <p class="dark-text">N/A</p><br>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card my-2" id="carsh" style="width: 38rem; height: 42rem">
+    <div class="row">
+      <div class="col">
+        <img src="img/sensehatcar.png" class="rounded-0 card-img-top" alt="Car">
+      </div>
+      <div class="col-4 d-none d-lg-block">
+        <h3 class="tw-font-semibold tw-not-italic">Related</h3>
+        <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
+        <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
+        <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
+        <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
+      </div>
+    </div>
+    <div class="card-body">
+      <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+      <h5 class="card-title tw-not-italic">Car Port+ Rev. 2</h5>
+      <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A port of the original SenseHAT version of
+        Car to regular Scratch with a bit of tweaking and added levels to make it closer to older versions of the
+        remaster.</h5>
+      <div class="row">
+        <div class="col">
+          <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+        </div>
+        <div class="col">
+          <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+        </div>
+      </div>
+      <hr>
+      <a class="dark-text" href="https://turbowarp.org/683117053">Open on TurboWarp <i
+          class="bi bi-arrow-right"></i></a><br>
+      <a class="dark-text" href="https://scratch.mit.edu/projects/683117053/">Open on Scratch <i
+          class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+  <hr>
+  <footer class="container blueish" id="footer-links">
+    <div class="row py-3">
+      <div class="col">
+        <h1 class="text-end">3prm3</h1>
+        <h3 class="text-end">Links</h3>
+      </div>
+      <div class="col">
+        <ul class="list-unstyled my-0">
+          <li>
+            <i class="bi bi-house-door-fill"></i>
+            <a href="home.html">Homepage</a>
+          </li>
+          <li>
+            <i class="custom d-inline-block"><img src="img/scratch-icon.png"></i>
+            <a href="scratch.html">Scratch</a>
+          </li>
+          <li>
+            <i class="bi bi-list-ul"></i>
+            <a href="lists.html">Lists</a>
+          </li>
+          <li>
+            <i class="bi bi-card-image"></i>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <i class="bi bi-question-lg"></i>
+            <a href="other.html">Other</a>
+          </li>
+          <li>
+            <i class="bi bi-calculator-fill"></i>
+            <a href="calc.html">Calculator</a>
+          </li>
+          <li>
+            <i class="bi bi-code-slash"></i>
+            <a href="coding.html">Coding</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <i>
+    <p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text"
+        href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text"
+        href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text" href="https://icons.getbootstrap.com/">
+        Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a
+        class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p>
+  </i>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

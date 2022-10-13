@@ -1,124 +1,158 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
-    <script>
-      tailwind.config = {
-        prefix: 'tw-',
-        corePlugins: {
-         preflight: false,
-       }
-      ,theme: {
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+      corePlugins: {
+        preflight: false,
+      }
+      , theme: {
         extend: {
           fontSize: {
-      sxsm: '0.785rem',
-     }
-       ,rotate: {
-         '5.625': '5.625deg',
+            sxsm: '0.785rem',
+          }
+          , rotate: {
+            '5.625': '5.625deg',
+          }
         }
-       }
-     }
+      }
     }
-    </script>
-    <title>3prm3's Site: Blog</title>
-    <meta name="title" content="3prm3's Site: Blog">
-    <meta name="description" content="A blog for 3prm3's thoughts, ideas, showcases, art and tutorials.">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://threepremthree.neocities.org/blog.html">
-    <meta property="og:title" content="3prm3's Site: Blog">
-    <meta property="og:description" content="A blog for 3prm3's thoughts, ideas, showcases, art and tutorials.">
-    <meta property="og:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://threepremthree.neocities.org/blog.html">
-    <meta property="twitter:title" content="3prm3's Site: Blog">
-    <meta property="twitter:description" content="A blog for 3prm3's thoughts, ideas, showcases, art and tutorials.">
-    <meta property="twitter:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
-   <link rel="icon" type="image/png" href="img/favicon.png">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.min.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <script src="js/prism.js"></script>
-    <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
-    <div class="container">
-  <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
+  </script>
+  <title>3prm3's Site: Blog</title>
+  <meta name="title" content="3prm3's Site: Blog">
+  <meta name="description" content="A blog for 3prm3's thoughts, ideas, showcases, art and tutorials.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://threepremthree.neocities.org/blog.html">
+  <meta property="og:title" content="3prm3's Site: Blog">
+  <meta property="og:description" content="A blog for 3prm3's thoughts, ideas, showcases, art and tutorials.">
+  <meta property="og:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://threepremthree.neocities.org/blog.html">
+  <meta property="twitter:title" content="3prm3's Site: Blog">
+  <meta property="twitter:description" content="A blog for 3prm3's thoughts, ideas, showcases, art and tutorials.">
+  <meta property="twitter:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="js/prism.js"></script>
+  <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
+  <div class="container">
+    <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
     <nav class="navbar navbar-expand-lg topnav">
       <div class="container-fluid">
         <a class="navbar-brand" href="home.html">
-          <img src="img/house.png"  class="rounded-0" width="50" height="50">
+          <img src="img/house.png" class="rounded-0" width="50" height="50">
         </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
-        </svg></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+              class="bi bi-list-nested" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
+            </svg></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button" aria-expanded="false"><h3>|Scratch|▾|</h3></a>
-                <ul class="dropdown-menu">
-                         <li><a class="dark-text dropdown-item" href="scratch.html">Scratch</a></li>
-                <li><hr class="dropdown-divider"></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button"
+                aria-expanded="false">
+                <h3>|Scratch|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="scratch.html">Scratch</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#games">Games</a></li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#libraries">Libraries</a></li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#showcase">Showcase</a></li>
-                </ul>
+              </ul>
             </li>
             <li class="nav-item">
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button" aria-expanded="false"><h3>|Lists|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="lists.html">Lists</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="lists.html#ghrepos">GitHub Repos/Projects</a></li>
-                  <li><a class="dark-text dropdown-item" href="lists.html#codres">Coding Resources</a></li>
-                </ul>
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Blog|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#september2022">September 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                 <li><a class="dark-text dropdown-item" href="blog.html#handlescriptbeta2">Latest Post</a></li>
-                </ul>
-                <li class="nav-item dropdown">
-                  <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button" aria-expanded="false"><h3>|Other|▾|</h3></a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dark-text dropdown-item" href="other.html">Other</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
-                    <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
-                  </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button"
+                aria-expanded="false">
+                <h3>|Lists|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="lists.html">Lists</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="lists.html#ghrepos">GitHub Repos/Projects</a></li>
+                <li><a class="dark-text dropdown-item" href="lists.html#codres">Coding Resources</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button"
+                aria-expanded="false">
+                <h3>|Blog|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="blog.html#september2022">September 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="blog.html#handlescriptbeta2">Latest Post</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button"
+                aria-expanded="false">
+                <h3>|Other|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="other.html">Other</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
+                <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
+              </ul>
             <li class="nav-item">
-              <a class="nav-link" href="calc.html"><h3>|Calculator|</h3></a>
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button" aria-expanded="false"><h3>|Coding|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="coding.html">Coding</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="coding.html#truth-machine">Truth-machine</a></li>
-                  <li><a class="dark-text dropdown-item" href="coding.html#sayit">SayIt</a></li>
-                </ul>
+              <a class="nav-link" href="calc.html">
+                <h3>|Calculator|</h3>
+              </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button"
+                aria-expanded="false">
+                <h3>|Coding|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="coding.html">Coding</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="coding.html#truth-machine">Truth-machine</a></li>
+                <li><a class="dark-text dropdown-item" href="coding.html#sayit">SayIt</a></li>
+              </ul>
           </ul>
         </div>
       </div>
     </nav>
-      </head>
-    <body>
-    <script src="https://cse.google.com/cse.js?cx=8f626fc0d51028e4f">
-    </script>
-    <div class="gcse-search"></div>
-    <section class="container-fluid bg-white">
+</head>
+
+<body>
+  <script src="https://cse.google.com/cse.js?cx=8f626fc0d51028e4f">
+  </script>
+  <div class="gcse-search"></div>
+  <section class="container-fluid bg-white">
     <h1>3prm3's Site: Blog</h1>
     <h2 id="september2022">September 2022</h2>
     <h5>9/13/2022 & 9/14/2022</h5>
@@ -127,166 +161,201 @@
     <p>In summary: HandleScript is effectively a group of modules made to make scripting in Scratch easier.</p>
     <h2>What does Beta 2 Add?</h2>
     <p>Beta 2 adds three features</p>
-   <ul>
-    <li><img src="img/list.png" class="rounded-0" width="62.5" height="62.5">Mode 2 for Stamper</li>
-    <p>Mode 2 is the same as mode 2 except that the end of the a list is read as a newline which makes it easier to modify data.</p>
-    <li><img src="img/tile.png" class="rounded-0" width="62.5" height="62.5">Mode 3 for Stamper</li>
-    <p>Mode 3 (aka: Tiles allows you to have two compress the two letter system to just one, all you have to do is define the alias and the actual symbol behind it.</p>
-    <li><img src="img/missing.png" class="rounded-0" width="62.5" height="62.5">Letter Excluder</li>
-    <p>Letter excluder allows you to remove letters from words or phrases.</p>
-  </ul>
-  <h2>Where's the link?</h2>
-  <p><a href="https://scratch.mit.edu/projects/728942498/" class="dark-text">Here <i class="bi bi-arrow-right"></i></a></p>
-  <hr class="tw-border-8 tw-border-slate-800">
+    <ul>
+      <li><img src="img/list.png" class="rounded-0" width="62.5" height="62.5">Mode 2 for Stamper</li>
+      <p>Mode 2 is the same as mode 2 except that the end of the a list is read as a newline which makes it easier to
+        modify data.</p>
+      <li><img src="img/tile.png" class="rounded-0" width="62.5" height="62.5">Mode 3 for Stamper</li>
+      <p>Mode 3 (aka: Tiles allows you to have two compress the two letter system to just one, all you have to do is
+        define the alias and the actual symbol behind it.</p>
+      <li><img src="img/missing.png" class="rounded-0" width="62.5" height="62.5">Letter Excluder</li>
+      <p>Letter excluder allows you to remove letters from words or phrases.</p>
+    </ul>
+    <h2>Where's the link?</h2>
+    <p><a href="https://scratch.mit.edu/projects/728942498/" class="dark-text">Here <i
+          class="bi bi-arrow-right"></i></a></p>
+    <hr class="tw-border-8 tw-border-slate-800">
     <h2 id="june2022">June 2022</h2>
     <h5>6/27/2022 Rev. 8/14/2022</h5>
     <h2 id="handlescript">Announcing HandleScript</h2>
     <img src="img/handlescript.png" class="rounded-0 w-25">
-    <p>I probably should've annouced this earlier but... I've released HandleScript: A "framework" (set of functions) for Scratch.</p>
-    <p>As of late I've added a lot of features such as letter stamping and music which can be seen <a class="dark-text" href="https://scratch.mit.edu/projects/715826450/">here</a>.</p>
+    <p>I probably should've annouced this earlier but... I've released HandleScript: A "framework" (set of functions)
+      for Scratch.</p>
+    <p>As of late I've added a lot of features such as letter stamping and music which can be seen <a class="dark-text"
+        href="https://scratch.mit.edu/projects/715826450/">here</a>.</p>
     <hr>
-    <a class="dark-text" href="https://scratch.mit.edu/projects/708530307/">Link to HandleScript Alpha 2  <i class="bi bi-arrow-right"></i></a><br>
-    <a class="dark-text" href="https://scratch.mit.edu/projects/708528707" >Example of HandleScript's note functionality <i class="bi bi-arrow-right"></i></a>
+    <a class="dark-text" href="https://scratch.mit.edu/projects/708530307/">Link to HandleScript Alpha 2 <i
+        class="bi bi-arrow-right"></i></a><br>
+    <a class="dark-text" href="https://scratch.mit.edu/projects/708528707">Example of HandleScript's note functionality
+      <i class="bi bi-arrow-right"></i></a>
     <hr class="tw-border-8 tw-border-slate-800">
     <h2 id="may2022">May 2022</h2>
     <h5>5/29/2022</h5>
     <h2 id="github">This site is now deployed via GitHub.</h2>
     <img src="img/github.png" class="rounded-0 w-25">
-    <p>Previously, this site was uploaded via the drag and drop menu but I now use a repo and GitHub Actions to deploy the site.</p>
+    <p>Previously, this site was uploaded via the drag and drop menu but I now use a repo and GitHub Actions to deploy
+      the site.</p>
     <hr>
-  <a class="dark-text" href="https://github.com/3prm3/website/tree/main/site" >GitHub Repo <i class="bi bi-arrow-right"></i></a>
-  <hr class="tw-border-8 tw-border-slate-800">
+    <a class="dark-text" href="https://github.com/3prm3/website/tree/main/site">GitHub Repo <i
+        class="bi bi-arrow-right"></i></a>
+    <hr class="tw-border-8 tw-border-slate-800">
     <h5>5/25/2022 Rev. 5/28/2022</h5>
     <h2 id="fonts">New Fonts!</h2>
     <img src="img/texttest.png" class="rounded-0 w-25">
     <p>I've made two new-ish fonts which can be found below!</p>
     <hr>
-    <a class="dark-text" href="https://raw.githubusercontent.com/3prm3/website/main/stuff/fonts/Field%20Day.ttf" >Download Field Day <i class="bi bi-download"></i></a></button><br>
-    <a class="dark-text" href="https://raw.githubusercontent.com/3prm3/website/main/stuff/fonts/Sprache.ttf" >Download Sprache <i class="bi bi-download"></i></a></button><br>
-    <a class="dark-text" href="https://github.com/3prm3/website/tree/main/stuff">Open GitHub repo <i class="bi bi-arrow-right"></i></a>
+    <a class="dark-text"
+      href="https://raw.githubusercontent.com/3prm3/website/main/stuff/fonts/Field%20Day.ttf">Download Field Day <i
+        class="bi bi-download"></i></a></button><br>
+    <a class="dark-text" href="https://raw.githubusercontent.com/3prm3/website/main/stuff/fonts/Sprache.ttf">Download
+      Sprache <i class="bi bi-download"></i></a></button><br>
+    <a class="dark-text" href="https://github.com/3prm3/website/tree/main/stuff">Open GitHub repo <i
+        class="bi bi-arrow-right"></i></a>
     <hr class="tw-border-8 tw-border-slate-800">
     <h5>5/22/2022 Rev. 5/26/2022</h5>
     <h2 id="wip">This site is under construction.</h2>
     <img src="img/wrench.png" class="w-25 rounded-0">
-    <p>Throught this month, I have been making many revisions and changes to the site. For example, you may have have noticed that there is now a <a href="coding.html" class="dark-text">Coding</a> section.
+    <p>Throught this month, I have been making many revisions and changes to the site. For example, you may have have
+      noticed that there is now a <a href="coding.html" class="dark-text">Coding</a> section.
       There's also a new navbar and header. I intend to continue to maintain and update the site as needed.
     </p>
     <hr class="tw-border-8 tw-border-slate-800">
     <h2 id="april2022">April 2022</h2>
     <h5>4/25/2022 Rev. 5/31/2022</h5>
     <h2 id="vhs">How to make a VHS effect... Tutorial #1</h2>
-    <p>What you'll need:</p> <p><a class="dark-text" href="https://www.getpaint.net/download.html">Paint.net</a><img src="https://www.getpaint.net/doc/latest/images/logo.png"></p>
+    <p>What you'll need:</p>
+    <p><a class="dark-text" href="https://www.getpaint.net/download.html">Paint.net</a><img
+        src="https://www.getpaint.net/doc/latest/images/logo.png"></p>
     <p>For the tutorial, I'm gonna be using this image</p>
     <img src="img/crosp.png" class="rounded-0 w-25">
     <ul>
-        <li>
-  <img src="https://www.getpaint.net/doc/latest/images/logo.png">Step 1: 
- <p>Open your image in paint.net
-        </li>
-        <li>
-  <img class="rounded-0" src="https://www.getpaint.net/doc/latest/images/Icons/Layers/MenuLayersDuplicateLayerIcon.192.png">Step 2:
-<p>Duplicate your image layer (<kbd>CTRL+SHIFT+D</kbd>).
-       </li>
-       <li>
-  <img src="https://www.getpaint.net/doc/latest/images/Icons/Adjustments/DesaturateEffect.192.png">Step 3:
-<p>Apply the Black & White effect (<kbd>CTRL+SHIFT+G</kbd>) to the lower layer and set its Brightness to 50<img src="https://www.getpaint.net/doc/latest/images/Icons/Adjustments/BrightnessAndContrastAdjustment.192.png"> (<kbd>CTRL+SHIFT+T</kbd>). 
-        </li>
-        <li>
- <img class="rounded-0" src="https://www.getpaint.net/doc/latest/images/Icons/Adjustments/HueAndSaturationAdjustment.192.png">Step 4:
-<p>Set the Hue/Saturation (<kbd>CTRL+SHIFT+U</kbd>) effect to 200 on the upper layer and set its Brightness to 100<img src="https://www.getpaint.net/doc/latest/images/Icons/Adjustments/BrightnessAndContrastAdjustment.192.png"> (<kbd>CTRL+SHIFT+T</kbd>).
-        </li>
-        <li>
-  <img class="rounded-0" src="https://www.getpaint.net/doc/latest/images/Icons/Tools/MoveToolIcon.192.png">Step 5:
-<p>Squish the upper layer horizontally until its with is equal to itself divided by six (<kbd>CTRL+A</kbd>).
-       </li>
-       <li>
- <img class="rounded-0" src="https://www.getpaint.net/doc/latest/images/Icons/Tools/MoveToolIcon.192.png">Step 6:
-<p>Unsquish the upper layer until it horizontally fits the canvas again while using Bilinear (<kbd>CTRL+A</kbd>).
-       </li>
-       <li>
+      <li>
+        <img src="https://www.getpaint.net/doc/latest/images/logo.png">Step 1:
+        <p>Open your image in paint.net
+      </li>
+      <li>
+        <img class="rounded-0"
+          src="https://www.getpaint.net/doc/latest/images/Icons/Layers/MenuLayersDuplicateLayerIcon.192.png">Step 2:
+        <p>Duplicate your image layer (<kbd>CTRL+SHIFT+D</kbd>).
+      </li>
+      <li>
+        <img src="https://www.getpaint.net/doc/latest/images/Icons/Adjustments/DesaturateEffect.192.png">Step 3:
+        <p>Apply the Black & White effect (<kbd>CTRL+SHIFT+G</kbd>) to the lower layer and set its Brightness to 50<img
+            src="https://www.getpaint.net/doc/latest/images/Icons/Adjustments/BrightnessAndContrastAdjustment.192.png">
+          (<kbd>CTRL+SHIFT+T</kbd>).
+      </li>
+      <li>
+        <img class="rounded-0"
+          src="https://www.getpaint.net/doc/latest/images/Icons/Adjustments/HueAndSaturationAdjustment.192.png">Step 4:
+        <p>Set the Hue/Saturation (<kbd>CTRL+SHIFT+U</kbd>) effect to 200 on the upper layer and set its Brightness to
+          100<img
+            src="https://www.getpaint.net/doc/latest/images/Icons/Adjustments/BrightnessAndContrastAdjustment.192.png">
+          (<kbd>CTRL+SHIFT+T</kbd>).
+      </li>
+      <li>
+        <img class="rounded-0" src="https://www.getpaint.net/doc/latest/images/Icons/Tools/MoveToolIcon.192.png">Step 5:
+        <p>Squish the upper layer horizontally until its with is equal to itself divided by six (<kbd>CTRL+A</kbd>).
+      </li>
+      <li>
+        <img class="rounded-0" src="https://www.getpaint.net/doc/latest/images/Icons/Tools/MoveToolIcon.192.png">Step 6:
+        <p>Unsquish the upper layer until it horizontally fits the canvas again while using Bilinear
+          (<kbd>CTRL+A</kbd>).
+      </li>
+      <li>
         <img src="https://www.getpaint.net/doc/latest/images/Icons/Layers/MenuLayersLayerPropertiesIcon.192.png">Step 7:
-<p>Set the upper layer's blend mode to Multiply.
-        </li>
-        <li>
-Step 8:
-<p>Merge the two layers together and save it! (<kbd>CTRL+SHIFT+G</kbd>).</p>
-        </li>
-      </ul>
-<h2>Final</h2>
-<img src="img/final.png" class="rounded-0 w-25">
-<p>Here I used this in tandem with another effect.</p>
-<hr class="tw-border-8 tw-border-slate-800">
+        <p>Set the upper layer's blend mode to Multiply.
+      </li>
+      <li>
+        Step 8:
+        <p>Merge the two layers together and save it! (<kbd>CTRL+SHIFT+G</kbd>).</p>
+      </li>
+    </ul>
+    <h2>Final</h2>
+    <img src="img/final.png" class="rounded-0 w-25">
+    <p>Here I used this in tandem with another effect.</p>
+    <hr class="tw-border-8 tw-border-slate-800">
     <h5>4/24/2022</h5>
     <h2 id="welcome">Welcome to my blog!</h2>
     <p>This blog is where I'll be posting art tips, general messages, announcements and more!</p>
     <img src="img/helloworld.png" class="rounded-0 w-25">
     <div></div>
     <hr>
-    <p><a class="dark-text" href="https://raw.githubusercontent.com/3prm3/website/main/stuff/classicskinpack.mcpack">My First Skinpack <i class="bi bi-arrow-right"></i></a></p>
+    <p><a class="dark-text" href="https://raw.githubusercontent.com/3prm3/website/main/stuff/classicskinpack.mcpack">My
+        First Skinpack <i class="bi bi-arrow-right"></i></a></p>
   </section>
-    <hr>
-    <footer class="container blueish" id="footer-links">
-      <div class="row py-3">
-        <div class="col">
-          <h1 class="text-end">3prm3</h1>
-          <h3 class="text-end ">Links</h3>
-        </div>
-        <div class="col">
-          <ul class="list-unstyled my-0">
-            <li>
-              <i class="bi bi-house-door-fill"></i>
-              <a href="home.html">Homepage</a>
-            </li>
-            <li>
-              <i class="custom d-inline-block"><img src="img/scratch-icon.png"></i>
-              <a href="scratch.html">Scratch</a>
-            </li>
-            <li>
-              <i class="bi bi-list-ul"></i>
-              <a href="lists.html">Lists</a>
-            </li>
-            <li>
-              <i class="bi bi-card-image"></i>
-              <a href="blog.html">Blog</a>
-            </li>
-            <li>
-              <i class="bi bi-question-lg"></i>
-              <a href="other.html">Other</a>
-            </li>
-            <li>
-              <i class="bi bi-calculator-fill"></i>
-              <a href="calc.html">Calculator</a>
-            </li>
-            <li>
-              <i class="bi bi-code-slash"></i>
-              <a href="coding.html">Coding</a>
-            </li>
-          </ul>
-        </div>
+  <hr>
+  <footer class="container blueish" id="footer-links">
+    <div class="row py-3">
+      <div class="col">
+        <h1 class="text-end">3prm3</h1>
+        <h3 class="text-end ">Links</h3>
       </div>
-    </footer>
-    <i><p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text" href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text" href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text" href="https://icons.getbootstrap.com/"> Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p></i>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <div id="disqus_thread"></div>
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
+      <div class="col">
+        <ul class="list-unstyled my-0">
+          <li>
+            <i class="bi bi-house-door-fill"></i>
+            <a href="home.html">Homepage</a>
+          </li>
+          <li>
+            <i class="custom d-inline-block"><img src="img/scratch-icon.png"></i>
+            <a href="scratch.html">Scratch</a>
+          </li>
+          <li>
+            <i class="bi bi-list-ul"></i>
+            <a href="lists.html">Lists</a>
+          </li>
+          <li>
+            <i class="bi bi-card-image"></i>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <i class="bi bi-question-lg"></i>
+            <a href="other.html">Other</a>
+          </li>
+          <li>
+            <i class="bi bi-calculator-fill"></i>
+            <a href="calc.html">Calculator</a>
+          </li>
+          <li>
+            <i class="bi bi-code-slash"></i>
+            <a href="coding.html">Coding</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <i>
+    <p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text"
+        href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text"
+        href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text" href="https://icons.getbootstrap.com/">
+        Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a
+        class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p>
+  </i>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <div id="disqus_thread"></div>
+  <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function () { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
         s.src = 'https://https-threepremthree-neocities-org.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <script id="dsq-count-scr" src="//https-threepremthree-neocities-org.disqus.com/count.js" async></script>
-</div>
-  </body>
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
+  <script id="dsq-count-scr" src="//https-threepremthree-neocities-org.disqus.com/count.js" async></script>
+  </div>
+</body>
+
 </html>

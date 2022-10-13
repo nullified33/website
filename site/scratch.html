@@ -1,735 +1,837 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
-    <script>
-      tailwind.config = {
-        prefix: 'tw-',
-        corePlugins: {
-         preflight: false,
-       }
-      ,theme: {
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+      corePlugins: {
+        preflight: false,
+      }
+      , theme: {
         extend: {
           fontSize: {
-      sxsm: '0.785rem',
-     }
-       ,rotate: {
-         '5.625': '5.625deg',
+            sxsm: '0.785rem',
+          }
+          , rotate: {
+            '5.625': '5.625deg',
+          }
         }
-       }
-     }
+      }
     }
-    </script>
-    <title>3prm3's Site: Scratch</title>
-    <meta name="title" content="3prm3's Site: Blog">
-    <meta name="description" content="The page dedicated to holding the best of 3prm3's Scratch projects...">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://threepremthree.neocities.org/scratch.html">
-    <meta property="og:title" content="3prm3's Site: Scratch">
-    <meta property="og:description" content="The page dedicated to holding the best of 3prm3's Scratch projects...">
-    <meta property="og:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://threepremthree.neocities.org/scratch.html">
-    <meta property="twitter:title" content="3prm3's Site: Scratch">
-    <meta property="twitter:description" content="The page dedicated to holding the best of 3prm3's Scratch projects...">
-    <meta property="twitter:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
-   <link rel="icon" type="image/png" href="img/favicon.png">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.min.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-    <script src="js/prism.js"></script>
-    <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
-<div class="container">
-   <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
-   <nav class="navbar navbar-expand-lg topnav">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="home.html">
-        <img src="img/house.png"  class="rounded-0" width="50" height="50">
-      </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
-        </svg></span>
-      </button>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
+  </script>
+  <title>3prm3's Site: Scratch</title>
+  <meta name="title" content="3prm3's Site: Blog">
+  <meta name="description" content="The page dedicated to holding the best of 3prm3's Scratch projects...">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://threepremthree.neocities.org/scratch.html">
+  <meta property="og:title" content="3prm3's Site: Scratch">
+  <meta property="og:description" content="The page dedicated to holding the best of 3prm3's Scratch projects...">
+  <meta property="og:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://threepremthree.neocities.org/scratch.html">
+  <meta property="twitter:title" content="3prm3's Site: Scratch">
+  <meta property="twitter:description" content="The page dedicated to holding the best of 3prm3's Scratch projects...">
+  <meta property="twitter:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="js/prism.js"></script>
+  <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
+  <div class="container">
+    <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
+    <nav class="navbar navbar-expand-lg topnav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="img/house.png" class="rounded-0" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+              class="bi bi-list-nested" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
+            </svg></span>
+        </button>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button" aria-expanded="false"><h3>|Scratch|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button"
+                aria-expanded="false">
+                <h3>|Scratch|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dark-text dropdown-item" href="scratch.html">Scratch</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#games">Games</a></li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#libraries">Libraries</a></li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#showcase">Showcase</a></li>
               </ul>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button" aria-expanded="false"><h3>|Lists|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button"
+                aria-expanded="false">
+                <h3>|Lists|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dark-text dropdown-item" href="lists.html">Lists</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="lists.html#ghrepos">GitHub Repos/Projects</a></li>
                 <li><a class="dark-text dropdown-item" href="lists.html#codres">Coding Resources</a></li>
               </ul>
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Blog|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#september2022">September 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                 <li><a class="dark-text dropdown-item" href="blog.html#handlescriptbeta2">Latest Post</a></li>
-                </ul>
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button" aria-expanded="false"><h3>|Other|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="other.html">Other</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
-                  <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
-                </ul>
-          <li class="nav-item">
-            <a class="nav-link" href="calc.html"><h3>|Calculator|</h3></a>
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button" aria-expanded="false"><h3>|Coding|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button"
+                aria-expanded="false">
+                <h3>|Blog|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="blog.html#september2022">September 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="blog.html#handlescriptbeta2">Latest Post</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button"
+                aria-expanded="false">
+                <h3>|Other|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="other.html">Other</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
+                <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="calc.html">
+                <h3>|Calculator|</h3>
+              </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button"
+                aria-expanded="false">
+                <h3>|Coding|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dark-text dropdown-item" href="coding.html">Coding</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="coding.html#truth-machine">Truth-machine</a></li>
                 <li><a class="dark-text dropdown-item" href="coding.html#sayit">SayIt</a></li>
               </ul>
-        </ul>
-      </div>
-    </div>
-  </nav>
-      </head>
-    <body>
-    <script src="https://cse.google.com/cse.js?cx=8f626fc0d51028e4f">
-    </script>
-    <div class="gcse-search"></div>
-    <h1>3prm3's Site: Scratch</h1>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner midblueish">
-          <div class="carousel-item active">
-            <div class="jumbotron bg-white tw-overflow-x-auto">
-              <h1>Spotlight</h1>
-              <img src="http://127.0.0.1:5500/site/img/car.png" class="rounded-0 tw-float-left w-25" alt="Car"><h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-              <h2>C.A.R: World Tour b7m9p2s5</h2>
-              <p>Press green flag to load game, arrow keys to move, space to start. Tap Helium Square intro to skip.</p>
-              <div class="row">
-                <div class="col">
-                  <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-                </div>
-                       <div class="col">
-                  <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-                </div>
-            </div>
-              <hr>
-              <a class="dark-text" href="https://turbowarp.org/679507056" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-              <a class="dark-text" href="https://scratch.mit.edu/projects/679507056/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-            </div>
-            <div class="tw-bg-gray-100 tw--translate-y-8">
-              <hr>
-              Related:
-              <ul>
-         <li><p class="dark-text">N/A</p><br></li>
-              </ul>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="jumbotron bg-white tw-overflow-x-auto">
-              <h1>Spotlight</h1>
-              <img src="img/car.png" class="rounded-0 tw-float-left w-25" alt="Car">
-              <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-              <h2>Car: A Remaster Beta 5.9 (Old Beta 6)</h2>
-              <p>The last (official) version of Car to use the old engine.</p>
-              <div class="row">
-                <div class="col">
-                  <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-                </div>
-                       <div class="col">
-                  <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-                </div>
-            </div>
-              <hr>
-              <a class="dark-text" href="https://turbowarp.org/564088480" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-              <a class="dark-text" href="https://scratch.mit.edu/projects/564088480/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-            </div>
-            <div class="tw-bg-gray-100 tw--translate-y-8">
-              <hr>
-              Related:
-              <ul>
-               <li><p class="dark-text">N/A</p><br></li>
-              </ul>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="jumbotron bg-white tw-overflow-x-auto">
-              <h1>Spotlight</h1>
-              <img src="img/bday.png" class="rounded-0 tw-float-left w-25" alt="Birthday Games Collection"><h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-              <h2>Birthday Games Collection</h2>
-              <p>A collection of 2 games I made for my birthday.</p>
-              <div class="row">
-                <div class="col">
-                  <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-                </div>
-                       <div class="col">
-                  <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-                </div>
-            </div>
-            <hr>
-            <a class="dark-text" href="https://turbowarp.org/706222676" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-            <a class="dark-text" href="https://scratch.mit.edu/projects/706222676/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-            </div>
-            <div class="tw-bg-gray-100 tw--translate-y-8">
-              <hr>
-              Related:
-              <ul>
-               <li><p class="dark-text">N/A</p><br></li>
-              </ul>
-            </div>
-          </div>
-          <!--
-               <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          -->
+          </ul>
         </div>
       </div>
-        <h2 id="games">Games</h2>
-        <div class="container">
-      <div class="row">
-      <div class="col">
-<div class="card my-2" id="car59" style="width: 38rem; height: 40rem">
-  <div class="row">
-    <div class="col">
-  <img src="img/car.png" class="rounded-0 card-img-top" alt="Car">
-      </div>
-      <div class="col-4 d-none d-lg-block">
-      <h3 class="tw-font-semibold tw-not-italic">Related</h3>
-      <a href="scratch.html#carwt"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-      <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">C.A.R: World Tour<br>b7m9p2s5</h4>
-      <a href="scratch.html#carsh"><img src="img/sensehatcar.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-      <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car Port+ Rev. 2</h4>
-      </div>
+    </nav>
+</head>
+
+<body>
+  <script src="https://cse.google.com/cse.js?cx=8f626fc0d51028e4f">
+  </script>
+  <div class="gcse-search"></div>
+  <h1>3prm3's Site: Scratch</h1>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
-    <div class="card-body">
-      <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-      <h5 class="card-title tw-not-italic">Car: A Remaster Beta 5.9 (Old Beta 6)</h5>
-      <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">The last (official) version of Car to use the old engine.</h5>
-      <div class="row">
-        <div class="col">
-      <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-    </div>
-           <div class="col">
-      <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-    </div>
-    </div>
-      <hr>
-        <a class="dark-text" href="https://turbowarp.org/564088480" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-        <a class="dark-text" href="https://scratch.mit.edu/projects/564088480/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-        </div>
-  </div>
-</div>
-<div class="col">
-  <div class="card my-2" id="carwt" style="width: 38rem; height: 40rem">
-    <div class="row">
-      <div class="col">
-    <img src="img/car.png" class="rounded-0 card-img-top" alt="Car">
-        </div>
-        <div class="col-4 d-none d-lg-block">
-        <h3 class="tw-font-semibold tw-not-italic">Related</h3>
-        <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-        <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
-        <a href="scratch.html#carsh"><img src="img/sensehatcar.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-        <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car Port+ Rev. 2</h4>
-        </div>
-      </div>
-      <div class="card-body">
-        <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-        <h5 class="card-title tw-not-italic">C.A.R: World Tour b7m9p2s5</h5>
-        <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">The latest version of Car.</h5>
-        <div class="row">
-          <div class="col">
-        <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-      </div>
-             <div class="col">
-        <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-      </div>
-      </div>
-        <hr>
-          <a class="dark-text" href="https://turbowarp.org/690324349" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-          <a class="dark-text" href="https://scratch.mit.edu/projects/690324349/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-          </div>
-    </div>
-  </div>
-<div class="col">
-  <div class="card my-2" id="carsh" style="width: 38rem; height: 46rem">
-    <div class="row">
-      <div class="col">
-    <img src="img/sensehatcar.png" class="rounded-0 card-img-top" alt="Car">
-        </div>
-        <div class="col-4 d-none d-lg-block">
-        <h3 class="tw-font-semibold tw-not-italic">Related</h3>
-        <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-        <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
-        <a href="scratch.html#cardx"><img src="img/carpartone.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-        <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">C.A.R Part One DX Alpha 1</h4>
-        </div>
-      </div>
-      <div class="card-body">
-        <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-        <h5 class="card-title tw-not-italic">Car Port+ Rev. 2</h5>
-        <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A port of the original SenseHAT version of Car to regular Scratch with a bit of tweaking and added levels to make it closer to older versions of the remaster.</h5>
-        <div class="row">
-          <div class="col">
-        <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-      </div>
-             <div class="col">
-        <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-      </div>
-      </div>
-        <hr>
-          <a class="dark-text" href="https://turbowarp.org/683117053" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-          <a class="dark-text" href="https://scratch.mit.edu/projects/683117053/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-          </div> 
-  </div>
-</div>
-<div class="col">
-  <div class="card my-2" id="bday" style="width: 38rem; height: 46rem">
-    <div class="row">
-      <div class="col">
-    <img src="img/bday.png" class="rounded-0 card-img-top" alt="Car">
-        </div>
-      </div>
-      <div class="card-body">
-        <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-        <h5 class="card-title tw-not-italic">Birthday Games Collection</h5>
-        <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A collection of 2 games I made for my birthday.</h5>
-        <div class="row">
-          <div class="col">
-        <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-      </div>
-             <div class="col">
-        <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-      </div>
-      </div>
-        <hr>
-          <a class="dark-text" href="https://turbowarp.org/743280070" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-          <a class="dark-text" href="https://scratch.mit.edu/projects/743280070/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-          </div> 
-  </div>
-</div>
-<div class="col">
-  <div class="card my-2" id="cardx" style="width: 38rem; height: 46rem">
-    <div class="row">
-      <div class="col">
-    <img src="img/carpartone.png" class="rounded-0 card-img-top" alt="Car">
-        </div>
-        <div class="col-4 d-none d-lg-block">
-          <h3 class="tw-font-semibold tw-not-italic">Related</h3>
-          <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-          <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
-          <a href="scratch.html#carfirst"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-          <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car Game Remake Beta 1</h4>
-          </div>
-      </div>
-      <div class="card-body">
-        <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-        <h5 class="card-title tw-not-italic">C.A.R Part One DX Alpha 1</h5>
-        <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">An Alpha test for a new CAR game (W.I.P.)</h5>
-        <div class="row">
-          <div class="col">
-        <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-      </div>
-             <div class="col">
-        <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-      </div>
-      </div>
-        <hr>
-          <a class="dark-text" href="https://turbowarp.org/706222676" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-          <a class="dark-text" href="https://scratch.mit.edu/projects/706222676/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-          </div> 
-  </div>
-</div>
-<div class="col">
-  <div class="card my-2" id="carfirst" style="width: 38rem; height: 46rem">
-    <div class="row">
-      <div class="col">
-    <img src="img/car.png" class="rounded-0 card-img-top" alt="Car">
-        </div>
-        <div class="col-4 d-none d-lg-block">
-          <h3 class="tw-font-semibold tw-not-italic">Related</h3>
-          <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-          <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
-          <a href="scratch.html#carsh"><img src="img/sensehatcar.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
-          <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car Port+ Rev. 2</h4>
-          </div>
-      </div>
-      <div class="card-body">
-        <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
-        <h5 class="card-title tw-not-italic">Car Game Remake Beta 1</h5>
-        <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">The first release of the CAR remasters.</h5>
-        <div class="row">
-          <div class="col">
-        <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-      </div>
-             <div class="col">
-        <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
-      </div>
-      </div>
-        <hr>
-          <a class="dark-text" href="https://turbowarp.org/553886520" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-          <a class="dark-text" href="https://scratch.mit.edu/projects/553886520/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-          </div> 
-  </div>
-</div>
-</div>
-<h2 id="libraries">Libraries</h2>
-   <div class="row">
-    <div class="col">
-<div class="card my-2" id="handlescript" style="width: 24rem;">
-<div class="row">
-  <div class="col">
-<img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript">
-    </div>
-  <div class="card-body">
-    <h4 class="dark-text tw-font-semibold tw-text-sm">Libraries</h4>
-    <h5 class="card-title tw-not-italic">HandleScript Beta 3</h5>
-    <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">Add broadcast aliases for mode 2 and 3 for stamper.</h5>
-    <div class="row">
-      <div class="col">
-    <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-  </div>
-         <div class="col">
-    <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Libraries</p>
-  </div>
-  </div>
-    <hr>
-      <a class="dark-text" href="https://turbowarp.org/733659042" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-      <a class="dark-text" href="https://scratch.mit.edu/projects/733659042/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-      </div>
-</div>
-</div>
-</div>
-<div class="col">
-  <div class="card my-2" id="lesshat" style="width: 24rem;">
-  <div class="row">
-    <div class="col">
-  <img src="img/lesshat.png" class="rounded-0 card-img-top" alt="LessHAT">
-      </div>
-    <div class="card-body">
-      <h4 class="dark-text tw-font-semibold tw-text-sm">Libraries</h4>
-      <h5 class="card-title tw-not-italic">LessHat</h5>
-      <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A library made to emulate the Raspberry Pi's SenseHAT screen.</h5>
-      <button class="btn dropdown-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
-        <h4 class="tw-font-bold tw-text-sm">Long Description</h4>
-      </button>
-      <div class="collapse" id="collapse">
-      <div class="card card-body">
-        An attempt to port the SenseHAT extension to web Scratch to remake SenseHat-Scratch projects (Uses the CGA Palette)
-  
-        So a creeper would be
-        <div></div>
-        BBBBBBBB
-        <div></div>
-        BBBBBBBB
-        <div></div>
-        B11BB11B
-        <div></div>
-        B11BB11B
-        <div></div>
-        BBB11BBB
-        <div></div>
-        BB1111BB
-        <div></div>
-        BB1111BB
-        <div></div>
-        BB1BB1BB
-        <div></div>
-        Or
-        <div></div>
-        BBBBBBBBBBBBBBBBB11BB11BB11BB11BBBB11BBBBB1111BBBB1111BBBB1BB1BB
-        <table class="table">
-          <thead>
-            <tr>
-              <th class="tw-font-medium tw-text-2xl tw-leading-[4rem]" colspan="3" scope="colgroup">Color Mappings:</th>
-            </tr>
-            <tr>
-              <th class="tw-font-bold" scope="col">#</th>
-              <th class="tw-font-bold" scope="col">Colors</th>
-              <th class="tw-font-bold" scope="col">Hex</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th class="tw-font-medium tw-text-gray-500" scope="row">0</th>
-              <td class="tw-font-medium tw-text-gray-500">Transparency/Alpha</td>
-              <td class="tw-font-medium tw-text-gray-500">#00000000</td>
-            </tr>
-            <tr>
-              <th class="tw-font-medium tw-text-gray-500" scope="row">1</th>
-              <td class="tw-font-medium tw-text-gray-500">Black</td>
-              <td class="tw-font-medium tw-text-gray-500">#000000</td>
-            </tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">2</th>
-            <td class="tw-font-medium tw-text-gray-500">Dark Blue</td>
-            <td class="tw-font-medium tw-text-gray-500">#0000AA</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">3</th>
-            <td class="tw-font-medium tw-text-gray-500">Dark Green</td>
-            <td class="tw-font-medium tw-text-gray-500">#00AA00</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">4</th>
-            <td class="tw-font-medium tw-text-gray-500">Dark Cyan</td>
-            <td class="tw-font-medium tw-text-gray-500">#00AAAA</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">5</th>
-            <td class="tw-font-medium tw-text-gray-500">Dark Red</td>
-            <td class="tw-font-medium tw-text-gray-500">#AA0000</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">6</th>
-            <td class="tw-font-medium tw-text-gray-500">Dark Magenta</td>
-            <td class="tw-font-medium tw-text-gray-500">#AA00AA</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">7</th>
-            <td class="tw-font-medium tw-text-gray-500">Brown</td>
-            <td class="tw-font-medium tw-text-gray-500">#AA5500</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">8</th>
-            <td class="tw-font-medium tw-text-gray-500">Light Gray</td>
-            <td class="tw-font-medium tw-text-gray-500">#AAAAAA</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">9</th>
-            <td class="tw-font-medium tw-text-gray-500">Dark Gray</td>
-            <td class="tw-font-medium tw-text-gray-500">#555555</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">A</th>
-            <td class="tw-font-medium tw-text-gray-500">Blue</td>
-            <td class="tw-font-medium tw-text-gray-500">#5555FF</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">B</th>
-            <td class="tw-font-medium tw-text-gray-500">Green</td>
-            <td class="tw-font-medium tw-text-gray-500">#55FF55</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">C</th>
-            <td class="tw-font-medium tw-text-gray-500">Cyan</td>
-            <td class="tw-font-medium tw-text-gray-500">#55FFFF</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">D</th>
-            <td class="tw-font-medium tw-text-gray-500">Red</td>
-            <td class="tw-font-medium tw-text-gray-500">#FF5555</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">E</th>
-            <td class="tw-font-medium tw-text-gray-500">Magenta</td>
-            <td class="tw-font-medium tw-text-gray-500">#FF55FF</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">F</th>
-            <td class="tw-font-medium tw-text-gray-500">Yellow</td>
-            <td class="tw-font-medium tw-text-gray-500">#FFFF55</td>
-          </tr>
-          <tr>
-            <th class="tw-font-medium tw-text-gray-500" scope="row">G</th>
-            <td class="tw-font-medium tw-text-gray-500">White</td>
-            <td class="tw-font-medium tw-text-gray-500">#FFFFFF</td>
-          </tr>
-          </tbody>
-        </table>
-       </p>
-      </div>
-      </div>
-      <div class="row">
-        <div class="col">
-      <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-    </div>
-           <div class="col">
-      <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Libraries</p>
-    </div>
-    </div>
-      <hr>
-        <a class="dark-text" href="https://turbowarp.org/685354569" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-        <a class="dark-text" href="https://scratch.mit.edu/projects/685354569/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-        </div>
-  </div>
-</div>
-</div>
-<div class="col">
-  <div class="card my-2" id="list"style="width: 24rem;">
-  <div class="row">
-    <div class="col">
-  <img src="img/listcloner.png" class="rounded-0 card-img-top" alt="List Cloner">
-      </div>
-    <div class="card-body">
-      <h4 class="dark-text tw-font-semibold tw-text-sm">Libraries</h4>
-      <h5 class="card-title tw-not-italic">List Cloner/List Reverser Tweaked</h5>
-      <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">Click on see inside to look at code in the "code" sprite..</h5>
-      <div class="row">
-        <div class="col">
-      <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-    </div>
-           <div class="col">
-      <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Libraries</p>
-    </div>
-    </div>
-      <hr>
-        <a class="dark-text" href="https://turbowarp.org/665427259" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-        <a class="dark-text" href="https://scratch.mit.edu/projects/665427259/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-        </div>
-  </div>
-</div>
-</div>
-<h2 id="showcase">Showcase</h2>
-   <div class="row">
-    <div class="col">
-      <div class="card my-2" id="carlesshat"style="width: 24rem;">
-      <div class="row">
-        <div class="col">
-      <img src="img/lesshat.png" class="rounded-0 card-img-top" alt="LessHAT">
-          </div>
-        <div class="card-body">
-          <h4 class="dark-text tw-font-semibold tw-text-sm">Showcase</h4>
-          <h5 class="card-title tw-not-italic">Car (LessHAT) Port</h5>
-          <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A port of the original SenseHAT version of Car to regular Scratch using the LessHAT library.</h5>
+    <div class="carousel-inner midblueish">
+      <div class="carousel-item active">
+        <div class="jumbotron bg-white tw-overflow-x-auto">
+          <h1>Spotlight</h1>
+          <img src="http://127.0.0.1:5500/site/img/car.png" class="rounded-0 tw-float-left w-25" alt="Car">
+          <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+          <h2>C.A.R: World Tour b7m9p2s5</h2>
+          <p>Press green flag to load game, arrow keys to move, space to start. Tap Helium Square intro to skip.</p>
           <div class="row">
             <div class="col">
-          <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-        </div>
-               <div class="col">
-          <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Showcase</p>
-        </div>
-        </div>
-          <hr>
-            <a class="dark-text" href="https://turbowarp.org/685355639" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-            <a class="dark-text" href="https://scratch.mit.edu/projects/685355639/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
+              <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
             </div>
-      </div>
-    </div>
-    </div>
-    <div class="col">
-<div class="card my-2" id="handlepiano"style="width: 24rem;">
-<div class="row">
-  <div class="col">
-<img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript">
-    </div>
-  <div class="card-body">
-    <h4 class="dark-text tw-font-semibold tw-text-sm">Showcase</h4>
-    <h5 class="card-title tw-not-italic">HandlePiano</h5>
-    <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A showcase of the HandleScript framework's "note" function.</h5>
-    <div class="row">
-      <div class="col">
-    <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-  </div>
-         <div class="col">
-    <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Showcase</p>
-  </div>
-  </div>
-    <hr>
-      <a class="dark-text" href="https://turbowarp.org/708528707" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-      <a class="dark-text" href="https://scratch.mit.edu/projects/708528707/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
-      </div>
-</div>
-</div>
-</div>
-<div class="col">
-  <div class="card my-2" id="trueblueengine"style="width: 24rem;">
-  <div class="row">
-    <div class="col">
-  <img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript">
-      </div>
-    <div class="card-body">
-      <h4 class="dark-text tw-font-semibold tw-text-sm">Showcase</h4>
-      <h5 class="card-title tw-not-italic">True Blue Engine Alpha 3</h5>
-      <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">
-        Windows for Computer, Android for tablet.<br>
-        PC Controls:<br>
-        Left/Right to move left/right, space to jump</h5>
-      <div class="row">
-        <div class="col">
-      <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
-    </div>
-           <div class="col">
-      <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Showcase</p>
-    </div>
-    </div>
-      <hr>
-        <a class="dark-text" href="https://turbowarp.org/714972560" >Open on TurboWarp <i class="bi bi-arrow-right"></i></a><br>
-        <a class="dark-text" href="https://scratch.mit.edu/projects/714972560/" >Open on Scratch <i class="bi bi-arrow-right"></i></a>
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+            </div>
+          </div>
+          <hr>
+          <a class="dark-text" href="https://turbowarp.org/679507056">Open on TurboWarp <i
+              class="bi bi-arrow-right"></i></a><br>
+          <a class="dark-text" href="https://scratch.mit.edu/projects/679507056/">Open on Scratch <i
+              class="bi bi-arrow-right"></i></a>
         </div>
-  </div>
-</div>
-</div>
-<hr>
-    <footer class="container blueish" id="footer-links">
-      <div class="row py-3">
-        <div class="col">
-          <h1 class="text-end">3prm3</h1>
-          <h3 class="text-end">Links</h3>
-        </div>
-        <div class="col">
-          <ul class="list-unstyled my-0">
+        <div class="tw-bg-gray-100 tw--translate-y-8">
+          <hr>
+          Related:
+          <ul>
             <li>
-              <i class="bi bi-house-door-fill"></i>
-              <a href="home.html">Homepage</a>
-            </li>
-            <li>
-              <i class="custom d-inline-block"><img src="img/scratch-icon.png"></i>
-              <a href="scratch.html">Scratch</a>
-            </li>
-            <li>
-              <i class="bi bi-list-ul"></i>
-              <a href="lists.html">Lists</a>
-            </li>
-            <li>
-              <i class="bi bi-card-image"></i>
-              <a href="blog.html">Blog</a>
-            </li>
-            <li>
-              <i class="bi bi-question-lg"></i>
-              <a href="other.html">Other</a>
-            </li>
-            <li>
-              <i class="bi bi-calculator-fill"></i>
-              <a href="calc.html">Calculator</a>
-            </li>
-            <li>
-              <i class="bi bi-code-slash"></i>
-              <a href="coding.html">Coding</a>
+              <p class="dark-text">N/A</p><br>
             </li>
           </ul>
         </div>
       </div>
-    </footer>
-    <i><p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text" href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text" href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text" href="https://icons.getbootstrap.com/"> Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p></i>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+      <div class="carousel-item">
+        <div class="jumbotron bg-white tw-overflow-x-auto">
+          <h1>Spotlight</h1>
+          <img src="img/car.png" class="rounded-0 tw-float-left w-25" alt="Car">
+          <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+          <h2>Car: A Remaster Beta 5.9 (Old Beta 6)</h2>
+          <p>The last (official) version of Car to use the old engine.</p>
+          <div class="row">
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+            </div>
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+            </div>
+          </div>
+          <hr>
+          <a class="dark-text" href="https://turbowarp.org/564088480">Open on TurboWarp <i
+              class="bi bi-arrow-right"></i></a><br>
+          <a class="dark-text" href="https://scratch.mit.edu/projects/564088480/">Open on Scratch <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="tw-bg-gray-100 tw--translate-y-8">
+          <hr>
+          Related:
+          <ul>
+            <li>
+              <p class="dark-text">N/A</p><br>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="jumbotron bg-white tw-overflow-x-auto">
+          <h1>Spotlight</h1>
+          <img src="img/bday.png" class="rounded-0 tw-float-left w-25" alt="Birthday Games Collection">
+          <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+          <h2>Birthday Games Collection</h2>
+          <p>A collection of 2 games I made for my birthday.</p>
+          <div class="row">
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+            </div>
+            <div class="col">
+              <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+            </div>
+          </div>
+          <hr>
+          <a class="dark-text" href="https://turbowarp.org/706222676">Open on TurboWarp <i
+              class="bi bi-arrow-right"></i></a><br>
+          <a class="dark-text" href="https://scratch.mit.edu/projects/706222676/">Open on Scratch <i
+              class="bi bi-arrow-right"></i></a>
+        </div>
+        <div class="tw-bg-gray-100 tw--translate-y-8">
+          <hr>
+          Related:
+          <ul>
+            <li>
+              <p class="dark-text">N/A</p><br>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--
+               <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          -->
+    </div>
+  </div>
+  <h2 id="games">Games</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card my-2" id="car59" style="width: 38rem; height: 40rem">
+          <div class="row">
+            <div class="col">
+              <img src="img/car.png" class="rounded-0 card-img-top" alt="Car">
+            </div>
+            <div class="col-4 d-none d-lg-block">
+              <h3 class="tw-font-semibold tw-not-italic">Related</h3>
+              <a href="scratch.html#carwt"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">C.A.R: World Tour<br>b7m9p2s5</h4>
+              <a href="scratch.html#carsh"><img src="img/sensehatcar.png" class="rounded-0 w-75 card-img-top"
+                  alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car Port+ Rev. 2</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+            <h5 class="card-title tw-not-italic">Car: A Remaster Beta 5.9 (Old Beta 6)</h5>
+            <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">The last (official) version of Car to
+              use the old engine.</h5>
+            <div class="row">
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+              </div>
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+              </div>
+            </div>
+            <hr>
+            <a class="dark-text" href="https://turbowarp.org/564088480">Open on TurboWarp <i
+                class="bi bi-arrow-right"></i></a><br>
+            <a class="dark-text" href="https://scratch.mit.edu/projects/564088480/">Open on Scratch <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card my-2" id="carwt" style="width: 38rem; height: 40rem">
+          <div class="row">
+            <div class="col">
+              <img src="img/car.png" class="rounded-0 card-img-top" alt="Car">
+            </div>
+            <div class="col-4 d-none d-lg-block">
+              <h3 class="tw-font-semibold tw-not-italic">Related</h3>
+              <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
+              <a href="scratch.html#carsh"><img src="img/sensehatcar.png" class="rounded-0 w-75 card-img-top"
+                  alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car Port+ Rev. 2</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+            <h5 class="card-title tw-not-italic">C.A.R: World Tour b7m9p2s5</h5>
+            <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">The latest version of Car.</h5>
+            <div class="row">
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+              </div>
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+              </div>
+            </div>
+            <hr>
+            <a class="dark-text" href="https://turbowarp.org/690324349">Open on TurboWarp <i
+                class="bi bi-arrow-right"></i></a><br>
+            <a class="dark-text" href="https://scratch.mit.edu/projects/690324349/">Open on Scratch <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card my-2" id="carsh" style="width: 38rem; height: 46rem">
+          <div class="row">
+            <div class="col">
+              <img src="img/sensehatcar.png" class="rounded-0 card-img-top" alt="Car">
+            </div>
+            <div class="col-4 d-none d-lg-block">
+              <h3 class="tw-font-semibold tw-not-italic">Related</h3>
+              <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
+              <a href="scratch.html#cardx"><img src="img/carpartone.png" class="rounded-0 w-75 card-img-top"
+                  alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">C.A.R Part One DX Alpha 1</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+            <h5 class="card-title tw-not-italic">Car Port+ Rev. 2</h5>
+            <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A port of the original SenseHAT version
+              of Car to regular Scratch with a bit of tweaking and added levels to make it closer to older versions of
+              the remaster.</h5>
+            <div class="row">
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+              </div>
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+              </div>
+            </div>
+            <hr>
+            <a class="dark-text" href="https://turbowarp.org/683117053">Open on TurboWarp <i
+                class="bi bi-arrow-right"></i></a><br>
+            <a class="dark-text" href="https://scratch.mit.edu/projects/683117053/">Open on Scratch <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card my-2" id="bday" style="width: 38rem; height: 46rem">
+          <div class="row">
+            <div class="col">
+              <img src="img/bday.png" class="rounded-0 card-img-top" alt="Car">
+            </div>
+          </div>
+          <div class="card-body">
+            <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+            <h5 class="card-title tw-not-italic">Birthday Games Collection</h5>
+            <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A collection of 2 games I made for my
+              birthday.</h5>
+            <div class="row">
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+              </div>
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+              </div>
+            </div>
+            <hr>
+            <a class="dark-text" href="https://turbowarp.org/743280070">Open on TurboWarp <i
+                class="bi bi-arrow-right"></i></a><br>
+            <a class="dark-text" href="https://scratch.mit.edu/projects/743280070/">Open on Scratch <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card my-2" id="cardx" style="width: 38rem; height: 46rem">
+          <div class="row">
+            <div class="col">
+              <img src="img/carpartone.png" class="rounded-0 card-img-top" alt="Car">
+            </div>
+            <div class="col-4 d-none d-lg-block">
+              <h3 class="tw-font-semibold tw-not-italic">Related</h3>
+              <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
+              <a href="scratch.html#carfirst"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car Game Remake Beta 1</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+            <h5 class="card-title tw-not-italic">C.A.R Part One DX Alpha 1</h5>
+            <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">An Alpha test for a new CAR game
+              (W.I.P.)</h5>
+            <div class="row">
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+              </div>
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+              </div>
+            </div>
+            <hr>
+            <a class="dark-text" href="https://turbowarp.org/706222676">Open on TurboWarp <i
+                class="bi bi-arrow-right"></i></a><br>
+            <a class="dark-text" href="https://scratch.mit.edu/projects/706222676/">Open on Scratch <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card my-2" id="carfirst" style="width: 38rem; height: 46rem">
+          <div class="row">
+            <div class="col">
+              <img src="img/car.png" class="rounded-0 card-img-top" alt="Car">
+            </div>
+            <div class="col-4 d-none d-lg-block">
+              <h3 class="tw-font-semibold tw-not-italic">Related</h3>
+              <a href="scratch.html#car59"><img src="img/car.png" class="rounded-0 w-75 card-img-top" alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car: A Remaster Beta 5.9<br>(Old Beta 6)</h4>
+              <a href="scratch.html#carsh"><img src="img/sensehatcar.png" class="rounded-0 w-75 card-img-top"
+                  alt="Car"></a>
+              <h4 class="tw-font-semibold tw-not-italic tw-text-sxsm">Car Port+ Rev. 2</h4>
+            </div>
+          </div>
+          <div class="card-body">
+            <h4 class="dark-text tw-font-semibold tw-text-sm">Games</h4>
+            <h5 class="card-title tw-not-italic">Car Game Remake Beta 1</h5>
+            <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">The first release of the CAR remasters.
+            </h5>
+            <div class="row">
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+              </div>
+              <div class="col">
+                <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Games</p>
+              </div>
+            </div>
+            <hr>
+            <a class="dark-text" href="https://turbowarp.org/553886520">Open on TurboWarp <i
+                class="bi bi-arrow-right"></i></a><br>
+            <a class="dark-text" href="https://scratch.mit.edu/projects/553886520/">Open on Scratch <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 id="libraries">Libraries</h2>
+    <div class="row">
+      <div class="col">
+        <div class="card my-2" id="handlescript" style="width: 24rem;">
+          <div class="row">
+            <div class="col">
+              <img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript">
+            </div>
+            <div class="card-body">
+              <h4 class="dark-text tw-font-semibold tw-text-sm">Libraries</h4>
+              <h5 class="card-title tw-not-italic">HandleScript Beta 3</h5>
+              <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">Add broadcast aliases for mode 2 and
+                3 for stamper.</h5>
+              <div class="row">
+                <div class="col">
+                  <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+                </div>
+                <div class="col">
+                  <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Libraries</p>
+                </div>
+              </div>
+              <hr>
+              <a class="dark-text" href="https://turbowarp.org/733659042">Open on TurboWarp <i
+                  class="bi bi-arrow-right"></i></a><br>
+              <a class="dark-text" href="https://scratch.mit.edu/projects/733659042/">Open on Scratch <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card my-2" id="lesshat" style="width: 24rem;">
+          <div class="row">
+            <div class="col">
+              <img src="img/lesshat.png" class="rounded-0 card-img-top" alt="LessHAT">
+            </div>
+            <div class="card-body">
+              <h4 class="dark-text tw-font-semibold tw-text-sm">Libraries</h4>
+              <h5 class="card-title tw-not-italic">LessHat</h5>
+              <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A library made to emulate the
+                Raspberry Pi's SenseHAT screen.</h5>
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapse">
+                <h4 class="tw-font-bold tw-text-sm">Long Description</h4>
+              </button>
+              <div class="collapse" id="collapse">
+                <div class="card card-body">
+                  An attempt to port the SenseHAT extension to web Scratch to remake SenseHat-Scratch projects (Uses the
+                  CGA Palette)
+
+                  So a creeper would be
+                  <div></div>
+                  BBBBBBBB
+                  <div></div>
+                  BBBBBBBB
+                  <div></div>
+                  B11BB11B
+                  <div></div>
+                  B11BB11B
+                  <div></div>
+                  BBB11BBB
+                  <div></div>
+                  BB1111BB
+                  <div></div>
+                  BB1111BB
+                  <div></div>
+                  BB1BB1BB
+                  <div></div>
+                  Or
+                  <div></div>
+                  BBBBBBBBBBBBBBBBB11BB11BB11BB11BBBB11BBBBB1111BBBB1111BBBB1BB1BB
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th class="tw-font-medium tw-text-2xl tw-leading-[4rem]" colspan="3" scope="colgroup">Color
+                          Mappings:</th>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-bold" scope="col">#</th>
+                        <th class="tw-font-bold" scope="col">Colors</th>
+                        <th class="tw-font-bold" scope="col">Hex</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">0</th>
+                        <td class="tw-font-medium tw-text-gray-500">Transparency/Alpha</td>
+                        <td class="tw-font-medium tw-text-gray-500">#00000000</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">1</th>
+                        <td class="tw-font-medium tw-text-gray-500">Black</td>
+                        <td class="tw-font-medium tw-text-gray-500">#000000</td>
+                      </tr>
+                      <th class="tw-font-medium tw-text-gray-500" scope="row">2</th>
+                      <td class="tw-font-medium tw-text-gray-500">Dark Blue</td>
+                      <td class="tw-font-medium tw-text-gray-500">#0000AA</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">3</th>
+                        <td class="tw-font-medium tw-text-gray-500">Dark Green</td>
+                        <td class="tw-font-medium tw-text-gray-500">#00AA00</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">4</th>
+                        <td class="tw-font-medium tw-text-gray-500">Dark Cyan</td>
+                        <td class="tw-font-medium tw-text-gray-500">#00AAAA</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">5</th>
+                        <td class="tw-font-medium tw-text-gray-500">Dark Red</td>
+                        <td class="tw-font-medium tw-text-gray-500">#AA0000</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">6</th>
+                        <td class="tw-font-medium tw-text-gray-500">Dark Magenta</td>
+                        <td class="tw-font-medium tw-text-gray-500">#AA00AA</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">7</th>
+                        <td class="tw-font-medium tw-text-gray-500">Brown</td>
+                        <td class="tw-font-medium tw-text-gray-500">#AA5500</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">8</th>
+                        <td class="tw-font-medium tw-text-gray-500">Light Gray</td>
+                        <td class="tw-font-medium tw-text-gray-500">#AAAAAA</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">9</th>
+                        <td class="tw-font-medium tw-text-gray-500">Dark Gray</td>
+                        <td class="tw-font-medium tw-text-gray-500">#555555</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">A</th>
+                        <td class="tw-font-medium tw-text-gray-500">Blue</td>
+                        <td class="tw-font-medium tw-text-gray-500">#5555FF</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">B</th>
+                        <td class="tw-font-medium tw-text-gray-500">Green</td>
+                        <td class="tw-font-medium tw-text-gray-500">#55FF55</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">C</th>
+                        <td class="tw-font-medium tw-text-gray-500">Cyan</td>
+                        <td class="tw-font-medium tw-text-gray-500">#55FFFF</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">D</th>
+                        <td class="tw-font-medium tw-text-gray-500">Red</td>
+                        <td class="tw-font-medium tw-text-gray-500">#FF5555</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">E</th>
+                        <td class="tw-font-medium tw-text-gray-500">Magenta</td>
+                        <td class="tw-font-medium tw-text-gray-500">#FF55FF</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">F</th>
+                        <td class="tw-font-medium tw-text-gray-500">Yellow</td>
+                        <td class="tw-font-medium tw-text-gray-500">#FFFF55</td>
+                      </tr>
+                      <tr>
+                        <th class="tw-font-medium tw-text-gray-500" scope="row">G</th>
+                        <td class="tw-font-medium tw-text-gray-500">White</td>
+                        <td class="tw-font-medium tw-text-gray-500">#FFFFFF</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+                </div>
+                <div class="col">
+                  <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Libraries</p>
+                </div>
+              </div>
+              <hr>
+              <a class="dark-text" href="https://turbowarp.org/685354569">Open on TurboWarp <i
+                  class="bi bi-arrow-right"></i></a><br>
+              <a class="dark-text" href="https://scratch.mit.edu/projects/685354569/">Open on Scratch <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card my-2" id="list" style="width: 24rem;">
+          <div class="row">
+            <div class="col">
+              <img src="img/listcloner.png" class="rounded-0 card-img-top" alt="List Cloner">
+            </div>
+            <div class="card-body">
+              <h4 class="dark-text tw-font-semibold tw-text-sm">Libraries</h4>
+              <h5 class="card-title tw-not-italic">List Cloner/List Reverser Tweaked</h5>
+              <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">Click on see inside to look at code
+                in the "code" sprite..</h5>
+              <div class="row">
+                <div class="col">
+                  <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+                </div>
+                <div class="col">
+                  <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Libraries</p>
+                </div>
+              </div>
+              <hr>
+              <a class="dark-text" href="https://turbowarp.org/665427259">Open on TurboWarp <i
+                  class="bi bi-arrow-right"></i></a><br>
+              <a class="dark-text" href="https://scratch.mit.edu/projects/665427259/">Open on Scratch <i
+                  class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 id="showcase">Showcase</h2>
+      <div class="row">
+        <div class="col">
+          <div class="card my-2" id="carlesshat" style="width: 24rem;">
+            <div class="row">
+              <div class="col">
+                <img src="img/lesshat.png" class="rounded-0 card-img-top" alt="LessHAT">
+              </div>
+              <div class="card-body">
+                <h4 class="dark-text tw-font-semibold tw-text-sm">Showcase</h4>
+                <h5 class="card-title tw-not-italic">Car (LessHAT) Port</h5>
+                <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A port of the original SenseHAT
+                  version of Car to regular Scratch using the LessHAT library.</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+                  </div>
+                  <div class="col">
+                    <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Showcase</p>
+                  </div>
+                </div>
+                <hr>
+                <a class="dark-text" href="https://turbowarp.org/685355639">Open on TurboWarp <i
+                    class="bi bi-arrow-right"></i></a><br>
+                <a class="dark-text" href="https://scratch.mit.edu/projects/685355639/">Open on Scratch <i
+                    class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card my-2" id="handlepiano" style="width: 24rem;">
+            <div class="row">
+              <div class="col">
+                <img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript">
+              </div>
+              <div class="card-body">
+                <h4 class="dark-text tw-font-semibold tw-text-sm">Showcase</h4>
+                <h5 class="card-title tw-not-italic">HandlePiano</h5>
+                <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">A showcase of the HandleScript
+                  framework's "note" function.</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+                  </div>
+                  <div class="col">
+                    <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Showcase</p>
+                  </div>
+                </div>
+                <hr>
+                <a class="dark-text" href="https://turbowarp.org/708528707">Open on TurboWarp <i
+                    class="bi bi-arrow-right"></i></a><br>
+                <a class="dark-text" href="https://scratch.mit.edu/projects/708528707/">Open on Scratch <i
+                    class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card my-2" id="trueblueengine" style="width: 24rem;">
+            <div class="row">
+              <div class="col">
+                <img src="img/handlescript.png" class="rounded-0 card-img-top" alt="HandleScript">
+              </div>
+              <div class="card-body">
+                <h4 class="dark-text tw-font-semibold tw-text-sm">Showcase</h4>
+                <h5 class="card-title tw-not-italic">True Blue Engine Alpha 3</h5>
+                <h5 class="tw-font-semibold tw-not-italic tw-text-sxsm tw-leading-5">
+                  Windows for Computer, Android for tablet.<br>
+                  PC Controls:<br>
+                  Left/Right to move left/right, space to jump</h5>
+                <div class="row">
+                  <div class="col">
+                    <p class="tw-rounded-full tw-bg-yellow-500 tw-text-yellow-700 tw-text-center">Scratch</p>
+                  </div>
+                  <div class="col">
+                    <p class="tw-rounded-full tw-bg-gray-400 tw-text-gray-600 tw-text-center">Showcase</p>
+                  </div>
+                </div>
+                <hr>
+                <a class="dark-text" href="https://turbowarp.org/714972560">Open on TurboWarp <i
+                    class="bi bi-arrow-right"></i></a><br>
+                <a class="dark-text" href="https://scratch.mit.edu/projects/714972560/">Open on Scratch <i
+                    class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <footer class="container blueish" id="footer-links">
+          <div class="row py-3">
+            <div class="col">
+              <h1 class="text-end">3prm3</h1>
+              <h3 class="text-end">Links</h3>
+            </div>
+            <div class="col">
+              <ul class="list-unstyled my-0">
+                <li>
+                  <i class="bi bi-house-door-fill"></i>
+                  <a href="home.html">Homepage</a>
+                </li>
+                <li>
+                  <i class="custom d-inline-block"><img src="img/scratch-icon.png"></i>
+                  <a href="scratch.html">Scratch</a>
+                </li>
+                <li>
+                  <i class="bi bi-list-ul"></i>
+                  <a href="lists.html">Lists</a>
+                </li>
+                <li>
+                  <i class="bi bi-card-image"></i>
+                  <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                  <i class="bi bi-question-lg"></i>
+                  <a href="other.html">Other</a>
+                </li>
+                <li>
+                  <i class="bi bi-calculator-fill"></i>
+                  <a href="calc.html">Calculator</a>
+                </li>
+                <li>
+                  <i class="bi bi-code-slash"></i>
+                  <a href="coding.html">Coding</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <i>
+          <p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a
+              class="dark-text" href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text"
+              href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text"
+              href="https://icons.getbootstrap.com/"> Bootstrap Icons</a> and <a class="dark-text"
+              href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a class="dark-text"
+              href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p>
+        </i>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+          crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -1,177 +1,222 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
-    <script>
-      tailwind.config = {
-        prefix: 'tw-',
-        corePlugins: {
-         preflight: false,
-       }
-      ,theme: {
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+      corePlugins: {
+        preflight: false,
+      }
+      , theme: {
         extend: {
           fontSize: {
-      sxsm: '0.785rem',
-     }
-       ,rotate: {
-         '5.625': '5.625deg',
+            sxsm: '0.785rem',
+          }
+          , rotate: {
+            '5.625': '5.625deg',
+          }
         }
-       }
-     }
+      }
     }
-    </script>
-    <title>3prm3's Site: Calculator</title>
-    <meta name="title" content="3prm3's Site: Calculator">
-    <meta name="description" content="A page to showcase Barebones Calculator.">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://threepremthree.neocities.org/calc.html">
-    <meta property="og:title" content="3prm3's Site: Calculator">
-    <meta property="og:description" content="A page to showcase Barebones Calculator.">
-    <meta property="og:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://threepremthree.neocities.org/calc.html">
-    <meta property="twitter:title" content="3prm3's Site: Calculator">
-    <meta property="twitter:description" content="A page to showcase Barebones Calculator.">
-    <meta property="twitter:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
-   <link rel="icon" type="image/png" href="img/favicon.png">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/style.min.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-      <script src="js/prism.js"></script>
-      <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
-      <div class="container">
-   <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
-   <nav class="navbar navbar-expand-lg topnav">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="home.html">
-        <img src="img/house.png"  class="rounded-0" width="50" height="50">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
-        </svg></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
+  </script>
+  <title>3prm3's Site: Calculator</title>
+  <meta name="title" content="3prm3's Site: Calculator">
+  <meta name="description" content="A page to showcase Barebones Calculator.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://threepremthree.neocities.org/calc.html">
+  <meta property="og:title" content="3prm3's Site: Calculator">
+  <meta property="og:description" content="A page to showcase Barebones Calculator.">
+  <meta property="og:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://threepremthree.neocities.org/calc.html">
+  <meta property="twitter:title" content="3prm3's Site: Calculator">
+  <meta property="twitter:description" content="A page to showcase Barebones Calculator.">
+  <meta property="twitter:image" content="https://threepremthree.neocities.org/img/meta3prm3.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="js/prism.js"></script>
+  <link href="css/prism.css" rel="stylesheet" type="text/css" media="all">
+  <div class="container">
+    <a href="index.html"><img src="img/3prm3.png" class="center tw-rotate-5.625 rounded-0 w-50"></a>
+    <nav class="navbar navbar-expand-lg topnav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">
+          <img src="img/house.png" class="rounded-0" width="50" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="navbarNav">
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+              class="bi bi-list-nested" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
+            </svg></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button" aria-expanded="false"><h3>|Scratch|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="scratch.html" role="button"
+                aria-expanded="false">
+                <h3>|Scratch|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dark-text dropdown-item" href="scratch.html">Scratch</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#games">Games</a></li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#libraries">Libraries</a></li>
                 <li><a class="dark-text dropdown-item" href="scratch.html#showcase">Showcase</a></li>
               </ul>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button" aria-expanded="false"><h3>|Lists|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="lists.html" role="button"
+                aria-expanded="false">
+                <h3>|Lists|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dark-text dropdown-item" href="lists.html">Lists</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="lists.html#ghrepos">GitHub Repos/Projects</a></li>
                 <li><a class="dark-text dropdown-item" href="lists.html#codres">Coding Resources</a></li>
               </ul>
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button" aria-expanded="false"><h3>|Blog|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#september2022">September 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
-                  <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                 <li><a class="dark-text dropdown-item" href="blog.html#handlescriptbeta2">Latest Post</a></li>
-                </ul>
-              <li class="nav-item dropdown">
-                <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button" aria-expanded="false"><h3>|Other|▾|</h3></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dark-text dropdown-item" href="other.html">Other</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
-                  <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
-                </ul>
-          <li class="nav-item">
-            <a class="nav-link" href="calc.html"><h3>|Calculator|</h3></a>
             <li class="nav-item dropdown">
-              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button" aria-expanded="false"><h3>|Coding|▾|</h3></a>
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="blog.html" role="button"
+                aria-expanded="false">
+                <h3>|Blog|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="blog.html#september2022">September 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#june2022">June 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#may2022">May 2022</a></li>
+                <li><a class="dark-text dropdown-item" href="blog.html#april2022">April 2022</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="blog.html#handlescriptbeta2">Latest Post</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="other.html" role="button"
+                aria-expanded="false">
+                <h3>|Other|▾|</h3>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dark-text dropdown-item" href="other.html">Other</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dark-text dropdown-item" href="other.html#minecraft">Minecraft Stuff</a></li>
+                <li><a class="dark-text dropdown-item" href="other.html#art">Art</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="calc.html">
+                <h3>|Calculator|</h3>
+              </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link data-toggle" data-bs-toggle="dropdown" href="coding.html" role="button"
+                aria-expanded="false">
+                <h3>|Coding|▾|</h3>
+              </a>
               <ul class="dropdown-menu">
                 <li><a class="dark-text dropdown-item" href="coding.html">Coding</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dark-text dropdown-item" href="coding.html#truth-machine">Truth-machine</a></li>
                 <li><a class="dark-text dropdown-item" href="coding.html#sayit">SayIt</a></li>
               </ul>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  </head>
-       <body>
-    <script src="https://cse.google.com/cse.js?cx=8f626fc0d51028e4f">
-    </script>
-    <div class="gcse-search"></div>
-    <h1>3prm3's Site: Calculator</h1>
-    <h5>Here's a nifty calculator.</h5>
-    <iframe src="calculator.html" class="tw-rounded-none"scrolling="no" width="100" height="725"></iframe>
-    <p>Embed with this.</p>
-      <div class="tw-border-[#F4F4F4] tw-leading-10 container tw-bg-[#F4F4F4] tw-text-black tw-overflow-x-auto tw-text-xl tw-font-light">
-        <br>
-        <br>
-        &lt;iframe src=&quot;https://threepremthree.neocities.org/calculator.html&quot; width=&quot;100&quot; height=&quot;650&quot;&gt;&lt;/iframe&gt;
-        <br>
-        <br>
-        <br>
-      </div>
-    <hr>
-    <footer class="container blueish" id="footer-links">
-      <div class="row py-3">
-        <div class="col">
-          <h1 class="text-end">3prm3</h1>
-          <h3 class="text-end">Links</h3>
-        </div>
-        <div class="col">
-          <ul class="list-unstyled my-0">
-            <li>
-              <i class="bi bi-house-door-fill"></i>
-              <a href="home.html">Homepage</a>
-            </li>
-            <li>
-              <i class="custom d-inline-block"><img src="img/scratch-icon.png"></i>
-              <a href="scratch.html">Scratch</a>
-            </li>
-            <li>
-              <i class="bi bi-list-ul"></i>
-              <a href="lists.html">Lists</a>
-            </li>
-            <li>
-              <i class="bi bi-card-image"></i>
-              <a href="blog.html">Blog</a>
-            </li>
-            <li>
-              <i class="bi bi-question-lg"></i>
-              <a href="other.html">Other</a>
-            </li>
-            <li>
-              <i class="bi bi-calculator-fill"></i>
-              <a href="calc.html">Calculator</a>
-            </li>
-            <li>
-              <i class="bi bi-code-slash"></i>
-              <a href="coding.html">Coding</a>
-            </li>
           </ul>
         </div>
       </div>
-    </footer>
-        <i><p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text" href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text" href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text" href="https://icons.getbootstrap.com/"> Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p></i>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+    </nav>
+</head>
+
+<body>
+  <script src="https://cse.google.com/cse.js?cx=8f626fc0d51028e4f">
+  </script>
+  <div class="gcse-search"></div>
+  <h1>3prm3's Site: Calculator</h1>
+  <h5>Here's a nifty calculator.</h5>
+  <iframe src="calculator.html" class="tw-rounded-none" scrolling="no" width="100" height="725"></iframe>
+  <p>Embed with this.</p>
+  <div
+    class="tw-border-[#F4F4F4] tw-leading-10 container tw-bg-[#F4F4F4] tw-text-black tw-overflow-x-auto tw-text-xl tw-font-light">
+    <br>
+    <br>
+    &lt;iframe src=&quot;https://threepremthree.neocities.org/calculator.html&quot; width=&quot;100&quot;
+    height=&quot;650&quot;&gt;&lt;/iframe&gt;
+    <br>
+    <br>
+    <br>
+  </div>
+  <hr>
+  <footer class="container blueish" id="footer-links">
+    <div class="row py-3">
+      <div class="col">
+        <h1 class="text-end">3prm3</h1>
+        <h3 class="text-end">Links</h3>
+      </div>
+      <div class="col">
+        <ul class="list-unstyled my-0">
+          <li>
+            <i class="bi bi-house-door-fill"></i>
+            <a href="home.html">Homepage</a>
+          </li>
+          <li>
+            <i class="custom d-inline-block"><img src="img/scratch-icon.png"></i>
+            <a href="scratch.html">Scratch</a>
+          </li>
+          <li>
+            <i class="bi bi-list-ul"></i>
+            <a href="lists.html">Lists</a>
+          </li>
+          <li>
+            <i class="bi bi-card-image"></i>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <i class="bi bi-question-lg"></i>
+            <a href="other.html">Other</a>
+          </li>
+          <li>
+            <i class="bi bi-calculator-fill"></i>
+            <a href="calc.html">Calculator</a>
+          </li>
+          <li>
+            <i class="bi bi-code-slash"></i>
+            <a href="coding.html">Coding</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <i>
+    <p>This is a <a class="dark-text" href="https://neocities.org">Neocities</a> site which uses <a class="dark-text"
+        href="https://getbootstrap.com/">Bootstrap</a>, <a class="dark-text"
+        href="https://tailwindcss.com/">tailwindcss</a>,<a class="dark-text" href="https://icons.getbootstrap.com/">
+        Bootstrap Icons</a> and <a class="dark-text" href="https://prismjs.com/">PrismJS</a> whose code is hosted on<a
+        class="dark-text" href="https://github.com/3prm3/website/tree/main/site"> GitHub</a>.</p>
+  </i>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
