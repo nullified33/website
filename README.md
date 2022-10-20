@@ -2,7 +2,7 @@
 
 ![3prm3](site/img/meta3prm3.png)
 
-<h1>The repository for the site <a href="https://threepremthree.neocities.org">https://threepremthree.neocities.org</a></h1>
+# The repository for the site [https://threepremthree.neocities.org](https://threepremthree.neocities.org)
 
 This repo contains the site's code and some extras so it edited conveniently from VSCode and deployed to Neocities.<br>
 ![](https://img.shields.io/github/workflow/status/3prm3/website/Deploy%20site%20to%20Neocities/master?style=for-the-badge&logo=github)
@@ -14,3 +14,4 @@ This repo contains the site's code and some extras so it edited conveniently fro
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 [HTML version](https://threepremthree.neocities.org/readme.html)
+[https://threepremthree.neocities.org](https://threepremthree.neocities.org)
