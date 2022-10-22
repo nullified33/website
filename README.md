@@ -14,5 +14,3 @@ This repo contains the site's code and some extras so it edited conveniently fro
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 [HTML version](https://threepremthree.neocities.org/readme.html) 
-
-[https://threepremthree.neocities.org](https://threepremthree.neocities.org)
