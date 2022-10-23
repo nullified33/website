@@ -1,6 +1,6 @@
 <link href="site/css/style.min.css" rel="stylesheet" type="text/css" media="all">
 
-![3prm3](site/img/meta3prm3.png)
+![3prm3's logo](site/img/meta3prm3.png)
 
 # The repository for the site [https://threepremthree.neocities.org](https://threepremthree.neocities.org)
 
