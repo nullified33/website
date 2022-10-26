@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-Latn-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com?plugins=typography,aspect-ratio,line-clamp"></script>
+  <script>
+    tailwind.config = {
+      prefix: 'tw-',
+      corePlugins: {
+        preflight: false,
+      }
+      , theme: {
+        extend: {
+          fontSize: {
+            sxsm: '0.785rem',
+          }
+          , rotate: {
+            '5.625': '5.625deg',
+          }
+        }
+      }
+    }
+  </script>
+  <title>DVD Logo</title>
+  <meta name="theme-color" content="#67869F">
+</head>
+<body style="background-color:#ffffff;">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.min.css">
+  <script src="js/calc.min.js"></script>
+  <link href="css/style.min.css" rel="stylesheet preload" type="text/css" media="all">
+  <marquee
+  direction="up"
+  width="100%"
+  height="500%"
+  behavior="alternate"
+  style="">
+  <marquee behavior="alternate"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/DVD_logo.svg" class="w-25 tw-fill-[#ffffff]"></marquee>
+</marquee>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
